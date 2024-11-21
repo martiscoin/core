@@ -15,6 +15,7 @@ using Blockcore.Consensus.ScriptInfo;
 using Blockcore.Consensus.TransactionInfo;
 using Blockcore.Controllers.Models;
 using Blockcore.Features.BlockStore.AddressIndexing;
+using Blockcore.Features.Consensus;
 using Blockcore.Features.MemoryPool;
 using Blockcore.Features.MemoryPool.Interfaces;
 using Blockcore.Features.Miner;
@@ -296,8 +297,8 @@ namespace Blockcore.Networks.X1.Components
                             if (lstLotFoundHeight < currentHeight)
                             {
                                 lstLotFoundHeight = currentHeight;
-                                string address = context.ReserveScript.ReserveFullNodeScript.GetDestinationAddress(this.network).ToString();
-                                SendLotTransaction(lotWinnerNonce, address, lstLotFoundHeight, headerBytes);
+                                //string address = context.ReserveScript.ReserveFullNodeScript.GetDestinationAddress(this.network).ToString();
+                                //SendLotTransaction(lotWinnerNonce, address, lstLotFoundHeight, headerBytes);
                             }
                         }
                     }
@@ -314,34 +315,6 @@ namespace Blockcore.Networks.X1.Components
                 block.Header.Nonce = winnerNonce;
                 if (block.Header.CheckProofOfWork())
                 {
-                    block.Transactions[0].Outputs[0].Value = new Money(block.Transactions[0].Outputs[0].Value / 10);
-                    List<Blockcore.Consensus.ScriptInfo.Script> scripts = new List<Blockcore.Consensus.ScriptInfo.Script>();
-                    foreach (X1Transaction tx in block.Transactions)
-                    {
-                        block.Header.Nonce = tx.LotNonce;
-                        if (tx.LotNonce > 0 && ((X1BlockHeader)block.Header).CheckLotProofOfWork(tx.LotHeaderBytes, tx.LotNonce)
-                            && (tx.LotNonce % 13 == winnerNonce % 13))
-                        {
-                            Blockcore.Consensus.ScriptInfo.Script script = tx.Outputs.OrderBy(op => op.Value).First().ScriptPubKey;
-                            var lotAddress = script.GetDestinationAddress(this.network).ToString();
-                            string address = context.ReserveScript.ReserveFullNodeScript.GetDestinationAddress(this.network).ToString();
-                            if (lotAddress.Equals(address)) continue;
-                            scripts.Add(script);
-                        }
-                    }
-
-                    int index = 0;
-                    Money lotMoney = scripts.Count <= 0 ? 0 : (new Money(block.Transactions[0].Outputs[0].Value / 10) * 9) / (scripts.Count > 32 ? 32 : scripts.Count);
-                    foreach (Blockcore.Consensus.ScriptInfo.Script sc in scripts)
-                    {
-                        if (index >= 32) break;
-                        block.Transactions[0].Outputs.Add(new TxOut()
-                        {
-                            ScriptPubKey = sc,
-                            Value = lotMoney
-                        });
-                        index++;
-                    }
                     return true;
                 }
             }
@@ -360,6 +333,7 @@ namespace Blockcore.Networks.X1.Components
             var iterations = uint.MaxValue / (uint)this.minerSettings.OpenCLWorksizeSplit;
             var nonceStart = ((uint)context.ExtraNonce - 1) * iterations;
 
+            ulong currentHeight = context.CurrentHeight;
 
             this.stopwatch.Restart();
 
@@ -478,6 +452,58 @@ namespace Blockcore.Networks.X1.Components
             {
                 if (context.BlockTemplate.Block.Header.Time <= context.ChainTip.Header.Time)
                     return false;
+            }
+
+            Block block = context.ChainTip.Previous == null ? null : context.ChainTip.Previous.Block;
+            if (block != null)
+            {
+                List<Blockcore.Consensus.ScriptInfo.Script> scripts = new List<Blockcore.Consensus.ScriptInfo.Script>();
+                List<string> lotAddresses = new List<string>();
+                List<uint> lotNonces = new List<uint>();
+                foreach (X1Transaction tx in block.Transactions)
+                {
+                    block.Header.Nonce = tx.LotNonce;
+                    if (tx.LotNonce > 0 && ((X1BlockHeader)block.Header).CheckLotProofOfWork(tx.LotHeaderBytes, tx.LotNonce))
+                    {
+                        Blockcore.Consensus.ScriptInfo.Script script = tx.Outputs.OrderBy(op => op.Value).First().ScriptPubKey;
+                        var lotAddress = script.GetDestinationAddress(this.network).ToString();
+                        string address = context.ReserveScript.ReserveFullNodeScript.GetDestinationAddress(this.network).ToString();
+                        if (lotAddress.Equals(address)) continue;
+                        if (lotAddresses.Count(t => t == address) > 0) continue;
+                        if (lotNonces.Count(n => n == tx.LotNonce) > 0) continue;
+                        lotAddresses.Add(address);
+                        lotNonces.Add(tx.LotNonce);
+                        scripts.Add(script);
+                    }
+                }
+
+                Money minedMoney = context.BlockTemplate.Block.Transactions[0].Outputs[0].Value;
+                X1Main x1 = (X1Main)this.network;
+                Blockcore.Consensus.ScriptInfo.Script devScript = BitcoinAddress.Create(x1.DevAddress, this.network).ScriptPubKey;
+                context.BlockTemplate.Block.Transactions[0].Outputs.Add(new TxOut()
+                {
+                    ScriptPubKey = devScript,
+                    Value = new Money(minedMoney / 10)
+                });
+
+                if (scripts.Count > 0)
+                {
+                    context.BlockTemplate.Block.Transactions[0].Outputs[0].Value = new Money(minedMoney / 10);
+
+                    Money lotMoney = (new Money(minedMoney / 10) * 9) / scripts.Count;
+                    foreach (Blockcore.Consensus.ScriptInfo.Script sc in scripts)
+                    {
+                        context.BlockTemplate.Block.Transactions[0].Outputs.Add(new TxOut()
+                        {
+                            ScriptPubKey = sc,
+                            Value = lotMoney
+                        });
+                    }
+                }
+                else
+                {
+                    context.BlockTemplate.Block.Transactions[0].Outputs[0].Value = new Money(minedMoney / 10) * 9;
+                }
             }
 
             return true;
