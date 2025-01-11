@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     public interface IPooledTransaction
     {

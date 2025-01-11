@@ -1,13 +1,13 @@
 ﻿using System;
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
-using Marscore.NBitcoin.BouncyCastle.crypto.ec;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.crypto.signers;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
-using Marscore.NBitcoin.BouncyCastle.math.ec.custom.sec;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.ec;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.signers;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.custom.sec;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {
     internal class ECKey
     {

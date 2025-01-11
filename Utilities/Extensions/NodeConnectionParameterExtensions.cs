@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using Marscore.P2P;
-using Marscore.P2P.Peer;
+using Martiscoin.P2P;
+using Martiscoin.P2P.Peer;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class NodeConnectionParameterExtensions
     {

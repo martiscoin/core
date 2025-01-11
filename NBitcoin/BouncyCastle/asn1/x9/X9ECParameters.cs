@@ -1,9 +1,9 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
-using Marscore.NBitcoin.BouncyCastle.math.field;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math.field;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     /**
      * ASN.1 def for Elliptic-Curve ECParameters structure. See

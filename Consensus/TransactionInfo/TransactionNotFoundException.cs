@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Consensus.TransactionInfo
+namespace Martiscoin.Consensus.TransactionInfo
 {
     public class TransactionNotFoundException : Exception
     {

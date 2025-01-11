@@ -3,10 +3,10 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// Contract for <see cref="PeerSelector"/>.

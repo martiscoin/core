@@ -1,9 +1,9 @@
 ﻿using System;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.OpenAsset
+namespace Martiscoin.NBitcoin.OpenAsset
 {
     /// <summary>
     /// A unique Id for an asset

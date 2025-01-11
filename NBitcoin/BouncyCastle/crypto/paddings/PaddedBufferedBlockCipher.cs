@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.paddings
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.paddings
 {
     /**
     * A wrapper class that allows block ciphers to be used to process data in

@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
-using Marscore.NBitcoin.BouncyCastle.crypto.macs;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.macs;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BIP32
+namespace Martiscoin.NBitcoin.BIP32
 {
     /// <summary>
     /// A private Hierarchical Deterministic key

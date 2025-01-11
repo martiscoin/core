@@ -1,7 +1,7 @@
-﻿using Marscore.NBitcoin;
-using Marscore.P2P.Protocol.Payloads;
+﻿using Martiscoin.NBitcoin;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Protocol
+namespace Martiscoin.P2P.Protocol
 {
     public enum InventoryType : uint
     {

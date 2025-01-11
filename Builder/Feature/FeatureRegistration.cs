@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Builder.Feature
+namespace Martiscoin.Builder.Feature
 {
     /// <summary>
     /// Defines methods for a representation of registered features of the FullNode.

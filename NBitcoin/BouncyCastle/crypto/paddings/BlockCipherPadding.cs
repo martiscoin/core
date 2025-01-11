@@ -1,6 +1,6 @@
-using Marscore.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.paddings
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.paddings
 {
     /**
      * Block cipher padders are expected to conform to this interface

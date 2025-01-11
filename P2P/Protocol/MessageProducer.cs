@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 using ConcurrentCollections;
 
-namespace Marscore.P2P.Protocol
+namespace Martiscoin.P2P.Protocol
 {
     /// <summary>
     /// Binding between <see cref="MessageProducer{T}"/> and <see cref="IMessageListener{T}"/>.

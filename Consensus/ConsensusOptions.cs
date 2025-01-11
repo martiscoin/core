@@ -1,6 +1,6 @@
-﻿using Marscore.Networks;
+﻿using Martiscoin.Networks;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// An extension to <see cref="Consensus"/> to enable additional options to the consensus data.

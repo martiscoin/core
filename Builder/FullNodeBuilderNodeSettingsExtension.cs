@@ -1,8 +1,8 @@
-﻿using Marscore.Base;
-using Marscore.Configuration;
+﻿using Martiscoin.Base;
+using Martiscoin.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// A class providing extension methods for <see cref="IFullNodeBuilder"/>.

@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.Protocol
+﻿namespace Martiscoin.NBitcoin.Protocol
 {
     /// <summary>
     /// Network protocol versioning.

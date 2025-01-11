@@ -19,9 +19,9 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 using System;
 using System.IO;
-using Marscore.NBitcoin.BouncyCastle.crypto;
+using Martiscoin.NBitcoin.BouncyCastle.crypto;
 
-namespace Marscore.NBitcoin.Crypto.Cryptsharp
+namespace Martiscoin.NBitcoin.Crypto.Cryptsharp
 {
     /// <summary>
     /// Implements the PBKDF2 key derivation function.

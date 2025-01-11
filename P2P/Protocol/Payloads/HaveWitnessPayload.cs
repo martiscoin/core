@@ -1,4 +1,4 @@
-﻿namespace Marscore.P2P.Protocol.Payloads
+﻿namespace Martiscoin.P2P.Protocol.Payloads
 {
     [Payload("havewitness")]
     public class HaveWitnessPayload : Payload

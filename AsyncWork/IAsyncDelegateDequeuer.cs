@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     /// <summary>
     /// Interface that represents a disposable async delegate.

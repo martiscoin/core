@@ -1,10 +1,10 @@
 ﻿using System.Net;
-using Marscore.Configuration.Settings;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Utilities.Extensions;
 using ConcurrentCollections;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// Tracker for endpoints known to be self.

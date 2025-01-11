@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     /// <summary>
     /// Represents a counterparty of the node on the network. This is usually another node, but it can be

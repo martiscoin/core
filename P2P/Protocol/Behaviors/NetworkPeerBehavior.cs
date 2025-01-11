@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.P2P.Peer;
-using Marscore.Utilities;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Utilities;
 
-namespace Marscore.P2P.Protocol.Behaviors
+namespace Martiscoin.P2P.Protocol.Behaviors
 {
     public interface INetworkPeerBehavior : IDisposable
     {

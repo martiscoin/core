@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
-using Marscore.Networks;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
 
-namespace Marscore.Mining
+namespace Martiscoin.Mining
 {
     public sealed class BlockTemplate
     {

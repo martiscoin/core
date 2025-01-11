@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Signals;
-using Marscore.Utilities;
+using Martiscoin.Signals;
+using Martiscoin.Utilities;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     public interface IAsyncProvider
     {

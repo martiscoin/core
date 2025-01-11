@@ -1,7 +1,7 @@
 using System;
 using DBreeze.Exceptions;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public class DBreezeRetryOptions : RetryOptions
     {

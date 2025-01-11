@@ -1,11 +1,11 @@
-﻿using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+﻿using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Marscore.NBitcoin.Formatters
+namespace Martiscoin.NBitcoin.Formatters
 {
     internal class BlockExplorerFormatter : RawFormatter
     {

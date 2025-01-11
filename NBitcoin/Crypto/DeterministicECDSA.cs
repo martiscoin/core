@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Marscore.NBitcoin.BouncyCastle.crypto;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.crypto.signers;
+using Martiscoin.NBitcoin.BouncyCastle.crypto;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.signers;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {    
     internal class DeterministicECDSA : ECDsaSigner
     {

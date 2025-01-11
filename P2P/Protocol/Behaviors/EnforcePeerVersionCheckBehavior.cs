@@ -1,12 +1,12 @@
 ﻿using System.Threading.Tasks;
-using Marscore.Configuration;
-using Marscore.Consensus.Chain;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.Utilities;
+using Martiscoin.Configuration;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P.Protocol.Behaviors
+namespace Martiscoin.P2P.Protocol.Behaviors
 {
     /// <summary>
     /// Sets the minimum supported client version <see cref="this.NodeSettings.MinProtocolVersion"/> to <see cref="this.Network.Consensus.Options.EnforcedMinProtocolVersion"/>

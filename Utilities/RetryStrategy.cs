@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public static class RetryStrategy
     {

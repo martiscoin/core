@@ -1,6 +1,6 @@
 using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /**
     * A wrapper class that allows block ciphers to be used to process data in

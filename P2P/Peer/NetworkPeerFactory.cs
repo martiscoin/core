@@ -3,17 +3,17 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration.Settings;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     /// <summary>
     /// Contract for factory for creating P2P network peers.

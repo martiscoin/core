@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public partial class BitcoinStream
     {

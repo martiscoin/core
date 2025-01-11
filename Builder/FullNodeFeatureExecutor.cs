@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Builder.Feature;
-using Marscore.Utilities;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// Starts and stops all features registered with a full node.

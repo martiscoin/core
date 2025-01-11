@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Marscore.Connection;
-using Marscore.NBitcoin.Protocol;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Connection;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// Behaviour implementation that encapsulates <see cref="IPeerAddressManager"/>.

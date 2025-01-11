@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Connection;
-using Marscore.NBitcoin;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.Connection;
+using Martiscoin.NBitcoin;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// Bans and disconnects peers that sends a <see cref="GetHeadersPayload"/> request, more than <see cref="GetHeaderRequestCountThresholdSeconds"/> times,

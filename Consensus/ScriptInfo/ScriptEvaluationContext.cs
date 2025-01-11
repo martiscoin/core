@@ -2,13 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     public enum ScriptError
     {

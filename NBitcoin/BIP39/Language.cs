@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.BIP39
+﻿namespace Martiscoin.NBitcoin.BIP39
 {
     public enum Language
     {

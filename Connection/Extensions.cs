@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     public static class Extensions
     {

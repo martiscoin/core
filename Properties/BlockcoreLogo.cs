@@ -1,8 +1,8 @@
-﻿namespace Marscore.Properties
+﻿namespace Martiscoin.core.Properties
 {
-    public static class MarscoreLogo
+    public static class MartiscoinLogo
     {
-        static MarscoreLogo()
+        static MartiscoinLogo()
         {
             LogoTemplate = Resources.Logo;
             SetTitle("Full Consensus Validating Node");

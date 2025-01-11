@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.field
+namespace Martiscoin.NBitcoin.BouncyCastle.math.field
 {
     internal abstract class FiniteFields
     {

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Signals;
-using Marscore.Utilities;
+using Martiscoin.Signals;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     /// <summary>
     /// Provides functionality for creating and tracking asynchronous operations that happen in the background.

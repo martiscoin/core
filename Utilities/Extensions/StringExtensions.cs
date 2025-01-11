@@ -1,6 +1,6 @@
 ﻿using System.Security;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class StringExtensions
     {

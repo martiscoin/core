@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
-using IBitcoinSerializable = Marscore.NBitcoin.IBitcoinSerializable;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
+using IBitcoinSerializable = Martiscoin.NBitcoin.IBitcoinSerializable;
 
-namespace Marscore.Consensus.Chain
+namespace Martiscoin.Consensus.Chain
 {
     public interface IChainStore
     {

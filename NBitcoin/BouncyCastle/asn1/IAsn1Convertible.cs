@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal interface IAsn1Convertible
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert <see cref="DateTimeOffset"/> to and from Unix time represented in JSON.

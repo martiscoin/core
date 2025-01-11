@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math.ec.abc;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.abc;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     /**
     * Class implementing the WTNAF (Window

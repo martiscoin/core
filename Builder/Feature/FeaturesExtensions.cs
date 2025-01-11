@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Marscore.Builder.Feature
+namespace Martiscoin.Builder.Feature
 {
     /// <summary>
     /// Extensions to features collection.

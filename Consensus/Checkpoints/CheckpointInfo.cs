@@ -1,6 +1,6 @@
-﻿using Marscore.NBitcoin;
+﻿using Martiscoin.NBitcoin;
 
-namespace Marscore.Consensus.Checkpoints
+namespace Martiscoin.Consensus.Checkpoints
 {
     /// <summary>
     /// Description of checkpointed block.

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Marscore.P2P.Peer;
+using Martiscoin.P2P.Peer;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Extension methods related to the network protocol.

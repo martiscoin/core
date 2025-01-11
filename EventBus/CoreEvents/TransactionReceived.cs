@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 using Newtonsoft.Json;
 
-namespace Marscore.EventBus.CoreEvents
+namespace Martiscoin.EventBus.CoreEvents
 {
     /// <summary>
     /// Event that is executed when a transaction is received from another peer.

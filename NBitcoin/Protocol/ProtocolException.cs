@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.Protocol
+namespace Martiscoin.NBitcoin.Protocol
 {
     public class ProtocolException : Exception
     {

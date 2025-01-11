@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using Marscore.NBitcoin.BouncyCastle.asn1;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.asn1;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {
     public class ECDSASignature
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     /// <summary>
     /// Async queue is a thread-safe queue that can operate in callback mode or blocking dequeue mode.

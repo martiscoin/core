@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="DateTime"/> to and from JSON.

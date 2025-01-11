@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Configuration
+namespace Martiscoin.Configuration
 {
     /// <summary>
     /// Exception that is used when a problem in command line or configuration file configuration is found.

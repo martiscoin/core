@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// Proven headers payload which contains list of up to 2000 proven headers.

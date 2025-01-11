@@ -1,8 +1,8 @@
-﻿using Marscore.EventBus;
-using Marscore.Interfaces;
+﻿using Martiscoin.EventBus;
+using Martiscoin.Interfaces;
 using Newtonsoft.Json;
 
-namespace Marscore.Connection.Broadcasting
+namespace Martiscoin.Connection.Broadcasting
 {
     /// <summary>
     /// Event that is executed when a transaction is broadcasted.

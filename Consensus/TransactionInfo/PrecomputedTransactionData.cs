@@ -1,7 +1,7 @@
-﻿using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin;
+﻿using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Consensus.TransactionInfo
+namespace Martiscoin.Consensus.TransactionInfo
 {
     public class PrecomputedTransactionData
     {

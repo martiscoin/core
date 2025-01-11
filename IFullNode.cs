@@ -1,9 +1,9 @@
 ﻿using System;
-using Marscore.Builder;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.Builder;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 
-namespace Marscore
+namespace Martiscoin
 {
     /// <summary>
     /// Contract for the full node built by full node builder.

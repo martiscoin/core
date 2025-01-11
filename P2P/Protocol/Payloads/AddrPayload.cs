@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// An available peer address in the bitcoin network is announce (unsollicited or after a getaddr).

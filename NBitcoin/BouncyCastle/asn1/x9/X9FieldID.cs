@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     /**
      * ASN.1 def for Elliptic-Curve Field ID structure. See

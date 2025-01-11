@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /**
      * The base interface for implementations of message authentication codes (MACs).

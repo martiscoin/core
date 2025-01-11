@@ -1,6 +1,6 @@
-﻿using Marscore.NBitcoin.BouncyCastle.util;
+﻿using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.field
+namespace Martiscoin.NBitcoin.BouncyCastle.math.field
 {
     internal class GF2Polynomial
         : IPolynomial

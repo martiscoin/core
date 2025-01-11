@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class TaskExtensions
     {

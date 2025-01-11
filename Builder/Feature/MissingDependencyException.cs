@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Builder.Feature
+namespace Martiscoin.Builder.Feature
 {
     /// <summary>
     /// Exception thrown when feature dependencies are missing.

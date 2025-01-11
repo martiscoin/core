@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /**
      * all parameter classes implement this.

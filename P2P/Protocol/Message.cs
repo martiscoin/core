@@ -2,15 +2,15 @@
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using Marscore.Consensus;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.Consensus;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Protocol
+namespace Martiscoin.P2P.Protocol
 {
     public class Message : IBitcoinSerializable
     {

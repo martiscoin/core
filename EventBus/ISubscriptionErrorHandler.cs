@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.EventBus
+namespace Martiscoin.EventBus
 {
     public interface ISubscriptionErrorHandler
     {

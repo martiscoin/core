@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Net;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Utilities.Extensions;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public class IPEndPointComparer : IEqualityComparer<IPEndPoint>
     {

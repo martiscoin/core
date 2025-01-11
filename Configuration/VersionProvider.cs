@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
-using Marscore.Interfaces;
+using Martiscoin.Interfaces;
 
-namespace Marscore.Configuration
+namespace Martiscoin.Configuration
 {
     public class VersionProvider : IVersionProvider
     {

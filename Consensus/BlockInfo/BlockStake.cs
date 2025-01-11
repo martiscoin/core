@@ -1,15 +1,15 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.BlockInfo
+namespace Martiscoin.Consensus.BlockInfo
 {
     [Flags]
     public enum BlockFlag //block index flags

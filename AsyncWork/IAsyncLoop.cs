@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     /// <summary>
     /// Allows running application defined in a loop with specific timing.

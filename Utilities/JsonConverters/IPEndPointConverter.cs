@@ -3,7 +3,7 @@ using System.Net;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert <see cref="IPEndPoint"/> to and from JSON.

@@ -1,7 +1,7 @@
-﻿using Marscore.EventBus;
+﻿using Martiscoin.EventBus;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Signals
+namespace Martiscoin.Signals
 {
     public interface ISignals : IEventBus
     {

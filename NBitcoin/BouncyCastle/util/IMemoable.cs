@@ -1,6 +1,6 @@
 using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.util
+namespace Martiscoin.NBitcoin.BouncyCastle.util
 {
     internal interface IMemoable
     {

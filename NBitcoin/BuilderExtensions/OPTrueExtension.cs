@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BuilderExtensions
+namespace Martiscoin.NBitcoin.BuilderExtensions
 {
     public class OPTrueExtension : BuilderExtension
     {

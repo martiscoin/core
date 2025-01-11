@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Marscore.Builder.Feature
+namespace Martiscoin.Builder.Feature
 {
     /// <summary>
     /// Defines methods for features that are managed by the FullNode.

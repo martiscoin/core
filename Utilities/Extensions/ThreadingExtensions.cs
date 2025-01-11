@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class ThreadingExtensions
     {

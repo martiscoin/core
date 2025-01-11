@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.AsyncWork;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     /// <summary>
     /// Message listener that waits until a specific payload is received and returns it to the caller.

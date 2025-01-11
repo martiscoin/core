@@ -1,4 +1,4 @@
-﻿namespace Marscore.Consensus.ValidationResults
+﻿namespace Martiscoin.Consensus.ValidationResults
 {
     /// <summary>
     /// Feedback after a block was validated.

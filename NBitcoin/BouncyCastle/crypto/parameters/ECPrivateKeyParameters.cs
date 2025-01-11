@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.parameters
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.parameters
 {
     internal class ECPrivateKeyParameters
         : ECKeyParameters

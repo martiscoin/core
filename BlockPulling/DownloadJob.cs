@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.BlockPulling
+namespace Martiscoin.BlockPulling
 {
     /// <summary>Represents consecutive collection of headers that are to be downloaded.</summary>
     public struct DownloadJob

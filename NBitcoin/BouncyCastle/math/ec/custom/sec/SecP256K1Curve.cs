@@ -1,6 +1,6 @@
-﻿using Marscore.NBitcoin.BouncyCastle.util.encoders;
+﻿using Martiscoin.NBitcoin.BouncyCastle.util.encoders;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.custom.sec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.custom.sec
 {
     internal class SecP256K1Curve
         : AbstractFpCurve

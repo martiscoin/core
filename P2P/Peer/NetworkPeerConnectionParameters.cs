@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Threading;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     public class NetworkPeerConnectionParameters
     {

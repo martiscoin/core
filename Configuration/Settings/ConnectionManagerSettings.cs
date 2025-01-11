@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
-using Marscore.Networks;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Configuration.Settings
+namespace Martiscoin.Configuration.Settings
 {
     /// <summary>
     /// Configuration related to incoming and outgoing connections.

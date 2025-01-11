@@ -1,6 +1,6 @@
-﻿using Marscore.Consensus.Chain;
+﻿using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Consensus.ValidationResults
+namespace Martiscoin.Consensus.ValidationResults
 {
     /// <summary>
     /// Feedback specific to a partial block validation.

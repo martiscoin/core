@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using Marscore.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.Crypto;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class UnsecureRandom : IRandom
     {

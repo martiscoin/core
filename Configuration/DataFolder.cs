@@ -1,10 +1,10 @@
 ﻿using System.IO;
 using System.Net;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Utilities;
-using Marscore.Utilities.Store;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Store;
 
-namespace Marscore.Configuration
+namespace Martiscoin.Configuration
 {
     /// <summary>
     /// Contains path locations to folders and files on disk.

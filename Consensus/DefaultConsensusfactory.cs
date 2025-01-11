@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// A default object factory to create instances that are not part of the types

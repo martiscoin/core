@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net;
-using Marscore.Utilities.Extensions;
-using Marscore.Utilities.JsonConverters;
+using Martiscoin.Utilities.Extensions;
+using Martiscoin.Utilities.JsonConverters;
 using Newtonsoft.Json;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// A class which holds data on a peer's (IPEndPoint) attempts, connections and successful handshake events.

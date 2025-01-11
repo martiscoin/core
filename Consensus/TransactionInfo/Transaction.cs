@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Formatters;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Formatters;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.TransactionInfo
+namespace Martiscoin.Consensus.TransactionInfo
 {
     public class OutPoint : IBitcoinSerializable
     {

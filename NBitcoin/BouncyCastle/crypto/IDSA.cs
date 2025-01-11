@@ -1,6 +1,6 @@
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /**
      * interface for classes implementing the Digital Signature Algorithm

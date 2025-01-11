@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
 
-namespace Marscore.NBitcoin.DataEncoders
+namespace Martiscoin.NBitcoin.DataEncoders
 {
     public class Base58CheckEncoder : Base58Encoder
     {

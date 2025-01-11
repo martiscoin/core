@@ -1,7 +1,7 @@
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     /**
      * Class for processing an ECFieldElement as a DER object.

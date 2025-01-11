@@ -1,4 +1,4 @@
-﻿namespace Marscore.P2P.Protocol.Payloads
+﻿namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// Ask for the mempool, followed by inv messages.

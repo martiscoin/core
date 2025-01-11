@@ -4,17 +4,17 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
-using Marscore.Builder;
-using Marscore.Builder.Feature;
-using Marscore.Configuration.Logging;
-using Marscore.Configuration.Settings;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.Builder;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Configuration.Logging;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 
-namespace Marscore.Configuration
+namespace Martiscoin.Configuration
 {
     internal static class NormalizeDirectorySeparatorExt
     {
@@ -128,7 +128,7 @@ namespace Marscore.Configuration
         /// - Alternatively, if the file name is not supplied then a network-specific file
         ///   name would be determined. In this case we first need to determine the network.
         /// </remarks>
-        public NodeSettings(Network network = null, string agent = "Marscore",
+        public NodeSettings(Network network = null, string agent = "Martiscoin",
             string[] args = null, NetworksSelector networksSelector = null)
         {
             // Create the default logger factory and logger.
@@ -151,7 +151,7 @@ namespace Marscore.Configuration
             // but both the data directory and the configuration file path may be changed using the -datadir and -conf command-line arguments.
             this.ConfigurationFile = this.ConfigReader.GetOrDefault<string>("conf", null, this.Logger)?.NormalizeDirectorySeparator();
             this.DataDir = this.ConfigReader.GetOrDefault<string>("datadir", null, this.Logger)?.NormalizeDirectorySeparator();
-            this.DataDirRoot = this.ConfigReader.GetOrDefault<string>("datadirroot", "Marscore", this.Logger);
+            this.DataDirRoot = this.ConfigReader.GetOrDefault<string>("datadirroot", "Martiscoin", this.Logger);
 
             // If the configuration file is relative then assume it is relative to the data folder and combine the paths.
             if (this.DataDir != null && this.ConfigurationFile != null)
@@ -381,8 +381,8 @@ namespace Marscore.Configuration
             builder.AppendLine($"-help/--help              Show this help.");
             builder.AppendLine($"-conf=<Path>              Path to the configuration file. Defaults to {defaults.ConfigurationFile}.");
             builder.AppendLine($"-datadir=<Path>           Path to the data directory. Defaults to {defaults.DataDir}.");
-            builder.AppendLine($"-datadirroot=<Path>       The path to the root data directory, which holds all node data on the machine. Defaults to 'Marscore'.");
-            builder.AppendLine($"-debug[=<string>]         Set 'Debug' logging level (add -debug=tasks for backround tasks). Specify what to log via e.g. '-debug=Marscore.Miner,Marscore.Wallet'.");
+            builder.AppendLine($"-datadirroot=<Path>       The path to the root data directory, which holds all node data on the machine. Defaults to 'Martiscoin'.");
+            builder.AppendLine($"-debug[=<string>]         Set 'Debug' logging level (add -debug=tasks for backround tasks). Specify what to log via e.g. '-debug=Martiscoin.Miner,Martiscoin.Wallet'.");
             builder.AppendLine($"-loglevel=<string>        Direct control over the logging level: '-loglevel=trace/debug/info/warn/error/fatal'.");
 
             // Can be overridden in configuration file.

@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     public class IPAddressConverter : JsonConverter
     {

@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class PubKey : IBitcoinSerializable, IDestination
     {

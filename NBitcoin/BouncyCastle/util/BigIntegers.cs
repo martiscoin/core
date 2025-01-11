@@ -1,8 +1,8 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.util
+namespace Martiscoin.NBitcoin.BouncyCastle.util
 {
     /**
      * BigInteger utilities.

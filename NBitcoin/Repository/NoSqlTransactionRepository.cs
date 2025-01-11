@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.Repository
+namespace Martiscoin.NBitcoin.Repository
 {
     public class NoSqlTransactionRepository : ITransactionRepository
     {

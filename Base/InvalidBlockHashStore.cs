@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.NBitcoin;
-using Marscore.Utilities;
+using Martiscoin.NBitcoin;
+using Martiscoin.Utilities;
 
-namespace Marscore.Base
+namespace Martiscoin.Base
 {
     /// <summary>
     /// Contract of a store of block header hashes that are considered invalid.

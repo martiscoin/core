@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Utilities;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Utilities;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Interface to insert and retrieve <see cref="ProvenBlockHeader"/> items from the database repository.

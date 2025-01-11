@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.NBitcoin;
-using Marscore.P2P.Peer;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.NBitcoin;
+using Martiscoin.P2P.Peer;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// TODO add a big nice comment.

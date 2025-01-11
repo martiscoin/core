@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class AssemblyExtensions
     {

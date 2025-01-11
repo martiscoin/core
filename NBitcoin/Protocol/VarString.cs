@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Marscore.NBitcoin.Protocol
+namespace Martiscoin.NBitcoin.Protocol
 {
     public class VarString : IBitcoinSerializable
     {

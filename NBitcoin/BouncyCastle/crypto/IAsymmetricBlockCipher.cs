@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /// <remarks>Base interface for a public/private key block cipher.</remarks>
     internal interface IAsymmetricBlockCipher

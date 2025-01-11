@@ -1,7 +1,7 @@
-using Marscore.NBitcoin.BouncyCastle.math.ec;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     /**
      * class for describing an ECPoint as a Der object.

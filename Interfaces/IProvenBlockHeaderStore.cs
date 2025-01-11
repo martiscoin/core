@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Marscore.Consensus;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Utilities;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Utilities;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Cache layer for <see cref="ProvenBlockHeader"/>s.

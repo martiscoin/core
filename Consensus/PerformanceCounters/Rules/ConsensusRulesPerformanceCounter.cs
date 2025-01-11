@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Marscore.Consensus.Rules;
-using Marscore.Utilities;
+using Martiscoin.Consensus.Rules;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus.PerformanceCounters.Rules
+namespace Martiscoin.Consensus.PerformanceCounters.Rules
 {
     /// <summary>Measures rules average execution time.</summary>
     public class ConsensusRulesPerformanceCounter

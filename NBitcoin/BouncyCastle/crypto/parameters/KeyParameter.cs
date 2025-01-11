@@ -1,6 +1,6 @@
 using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.parameters
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.parameters
 {
     internal class KeyParameter
         : ICipherParameters

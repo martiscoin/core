@@ -1,6 +1,6 @@
-﻿using Marscore.Consensus.ScriptInfo;
+﻿using Martiscoin.Consensus.ScriptInfo;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// Represent any type which represent an underlying ScriptPubKey

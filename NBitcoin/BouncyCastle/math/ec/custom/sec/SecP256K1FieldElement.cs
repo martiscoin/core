@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.NBitcoin.BouncyCastle.math.raw;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.math.raw;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.custom.sec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.custom.sec
 {
     internal class SecP256K1FieldElement
         : ECFieldElement

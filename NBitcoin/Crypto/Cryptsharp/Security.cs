@@ -19,7 +19,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 using System;
 
-namespace Marscore.NBitcoin.Crypto.Cryptsharp
+namespace Martiscoin.NBitcoin.Crypto.Cryptsharp
 {
     internal static class Security
     {

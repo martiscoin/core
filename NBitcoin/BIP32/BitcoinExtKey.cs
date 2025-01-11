@@ -1,7 +1,7 @@
-﻿using Marscore.Consensus.ScriptInfo;
-using Marscore.Networks;
+﻿using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BIP32
+namespace Martiscoin.NBitcoin.BIP32
 {
     public abstract class BitcoinExtKeyBase : Base58Data, IDestination
     {

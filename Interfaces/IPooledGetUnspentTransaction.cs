@@ -1,4 +1,4 @@
-﻿namespace Marscore.Interfaces
+﻿namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// An interface used to retrieve unspent transactions from a pooled source

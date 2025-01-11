@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Utilities.ValidationAttributes
+namespace Martiscoin.Utilities.ValidationAttributes
 {
     /// <summary>
     /// Validation attribute to check whether the data is in the right format to represent <see cref="Money"/>.

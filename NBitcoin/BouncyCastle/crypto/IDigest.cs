@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /**
      * interface that a message digest conforms to.

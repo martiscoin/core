@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     public class ConsensusException : Exception
     {

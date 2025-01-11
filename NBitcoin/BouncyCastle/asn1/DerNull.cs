@@ -1,6 +1,6 @@
 using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     /**
      * A Null object.

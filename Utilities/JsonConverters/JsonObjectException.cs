@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     public class JsonObjectException : Exception
     {

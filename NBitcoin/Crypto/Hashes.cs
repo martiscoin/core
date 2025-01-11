@@ -2,11 +2,11 @@
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
-using Marscore.NBitcoin.BouncyCastle.crypto.macs;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.macs;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {
     public static class Hashes
     {

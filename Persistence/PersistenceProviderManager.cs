@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Marscore.Builder;
-using Marscore.Builder.Feature;
-using Marscore.Configuration;
+using Martiscoin.Builder;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Persistence
+namespace Martiscoin.Persistence
 {
     /// <inheritdoc/>
     public class PersistenceProviderManager : IPersistenceProviderManager

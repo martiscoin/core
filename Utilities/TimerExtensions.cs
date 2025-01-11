@@ -1,6 +1,6 @@
 ﻿using System.Timers;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Extension methods for the <see cref="Timer"/> class.

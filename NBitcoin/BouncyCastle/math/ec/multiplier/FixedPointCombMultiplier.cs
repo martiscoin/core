@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     internal class FixedPointCombMultiplier
         : AbstractECMultiplier

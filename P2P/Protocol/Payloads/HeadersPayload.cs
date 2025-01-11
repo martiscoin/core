@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// Block headers received after a getheaders messages.

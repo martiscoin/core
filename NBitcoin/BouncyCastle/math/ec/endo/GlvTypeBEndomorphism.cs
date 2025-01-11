@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.BouncyCastle.math.ec.endo
+﻿namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.endo
 {
     internal class GlvTypeBEndomorphism
         : GlvEndomorphism

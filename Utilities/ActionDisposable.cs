@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Helper class that is used for implementation of custom lock primitives.

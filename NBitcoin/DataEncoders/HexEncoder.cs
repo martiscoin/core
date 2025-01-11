@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Marscore.NBitcoin.DataEncoders
+namespace Martiscoin.NBitcoin.DataEncoders
 {
     public class HexEncoder : DataEncoder
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Wraps ReaderWriterLockSlim with disposable interface so that

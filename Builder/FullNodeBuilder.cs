@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Marscore.Base;
-using Marscore.Builder.Feature;
-using Marscore.Configuration;
-using Marscore.Networks;
-using Marscore.Persistence;
-using Marscore.Utilities;
+using Martiscoin.Base;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Configuration;
+using Martiscoin.Networks;
+using Martiscoin.Persistence;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// Exception thrown by FullNodeBuilder.Build.

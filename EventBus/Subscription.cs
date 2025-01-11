@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.EventBus
+namespace Martiscoin.EventBus
 {
     internal class Subscription<TEventBase> : ISubscription where TEventBase : EventBase
     {

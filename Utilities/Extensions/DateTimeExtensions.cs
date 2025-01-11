@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     /// <summary>
     /// Provides a set of extension methods for the <see cref="DateTime"/> class.

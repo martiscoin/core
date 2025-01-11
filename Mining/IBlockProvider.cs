@@ -1,8 +1,8 @@
-﻿using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.ScriptInfo;
+﻿using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.ScriptInfo;
 
-namespace Marscore.Mining
+namespace Martiscoin.Mining
 {
     /// <summary>
     /// The block provider class is called by <see cref="PosMinting"/> and <see cref="PowMining"/>

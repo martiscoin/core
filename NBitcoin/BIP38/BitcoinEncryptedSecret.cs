@@ -2,14 +2,14 @@
 using System.Security;
 using System.Security.Cryptography;
 using System.Text;
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.Crypto.Cryptsharp;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.Crypto.Cryptsharp;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BIP38
+namespace Martiscoin.NBitcoin.BIP38
 {
     public class BitcoinEncryptedSecretNoEC : BitcoinEncryptedSecret
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Base.Deployments.Models;
-using Marscore.Consensus;
-using Marscore.Consensus.Chain;
-using Marscore.NBitcoin;
-using Marscore.Utilities;
+using Martiscoin.Base.Deployments.Models;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.NBitcoin;
+using Martiscoin.Utilities;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     /// <summary>
     /// This class tracks the current activation state of each BIP9 deployment.

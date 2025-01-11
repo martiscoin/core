@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Marscore.Consensus.Rules;
+using Martiscoin.Consensus.Rules;
 
-namespace Marscore.Consensus.PerformanceCounters.Rules
+namespace Martiscoin.Consensus.PerformanceCounters.Rules
 {
     /// <summary>Snapshot of rule's performance.</summary>
     public class ConsensusRulesPerformanceSnapshot

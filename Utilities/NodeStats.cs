@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public interface INodeStats
     {

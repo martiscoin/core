@@ -1,8 +1,8 @@
-﻿using Marscore.Consensus.Chain;
-using Marscore.Networks;
-using Marscore.Utilities;
+﻿using Martiscoin.Consensus.Chain;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     public class NodeDeployments
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.EventBus
+namespace Martiscoin.EventBus
 {
     /// <summary>
     /// Represents a subscription token.

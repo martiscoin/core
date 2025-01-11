@@ -1,8 +1,8 @@
 using System;
 using System.Text;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin.BouncyCastle.util
+namespace Martiscoin.NBitcoin.BouncyCastle.util
 {
     /// <summary> General array utilities.</summary>
     internal abstract class Arrays

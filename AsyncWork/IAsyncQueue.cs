@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     /// <summary>
     /// Defines a queue that can be dequeued asynchronously by multiple threads.

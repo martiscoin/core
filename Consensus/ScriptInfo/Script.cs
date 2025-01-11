@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     /// <summary>
     /// Script verification flags

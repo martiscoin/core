@@ -1,0 +1,15 @@
+D:\Mars\core\bin\Debug\net8.0\Martiscoin.deps.json
+D:\Mars\core\bin\Debug\net8.0\Martiscoin.dll
+D:\Mars\core\bin\Debug\net8.0\Martiscoin.pdb
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.csproj.AssemblyReference.cache
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.Properties.Resources.resources
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.csproj.GenerateResource.cache
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.AssemblyInfoInputs.cache
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.AssemblyInfo.cs
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.csproj.CoreCompileInputs.cache
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.core.sourcelink.json
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.dll
+D:\Mars\core\obj\Debug\net8.0\refint\Martiscoin.dll
+D:\Mars\core\obj\Debug\net8.0\Martiscoin.pdb
+D:\Mars\core\obj\Debug\net8.0\ref\Martiscoin.dll

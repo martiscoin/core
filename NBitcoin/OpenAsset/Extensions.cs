@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.OpenAsset
+﻿namespace Martiscoin.NBitcoin.OpenAsset
 {
     public static class Extensions
     {

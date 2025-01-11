@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
-using Marscore.NBitcoin.BouncyCastle.math.ec.abc;
-using Marscore.NBitcoin.BouncyCastle.math.ec.endo;
-using Marscore.NBitcoin.BouncyCastle.math.ec.multiplier;
-using Marscore.NBitcoin.BouncyCastle.math.field;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.abc;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.endo;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier;
+using Martiscoin.NBitcoin.BouncyCastle.math.field;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec
 {
     /// <remarks>Base class for an elliptic curve.</remarks>
     internal abstract class ECCurve

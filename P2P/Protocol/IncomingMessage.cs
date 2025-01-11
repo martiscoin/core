@@ -1,4 +1,4 @@
-﻿namespace Marscore.P2P.Protocol
+﻿namespace Martiscoin.P2P.Protocol
 {
     /// <summary>
     /// A type takes context information about a <see cref="Message"/>.

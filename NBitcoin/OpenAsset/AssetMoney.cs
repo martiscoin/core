@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Marscore.NBitcoin.OpenAsset
+namespace Martiscoin.NBitcoin.OpenAsset
 {
     public class AssetMoney : IComparable, IComparable<AssetMoney>, IEquatable<AssetMoney>, IMoney
     {

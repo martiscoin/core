@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.AsyncWork;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Base
+namespace Martiscoin.Base
 {
     /// <summary>
     /// Methods related to network peers time synchronization feature.

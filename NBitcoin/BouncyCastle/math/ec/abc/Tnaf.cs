@@ -1,6 +1,6 @@
 using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.abc
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.abc
 {
     /**
     * Class holding methods for point multiplication based on the window

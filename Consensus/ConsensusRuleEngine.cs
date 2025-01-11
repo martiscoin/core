@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Marscore.Base;
-using Marscore.Base.Deployments;
-using Marscore.Configuration.Settings;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.Checkpoints;
-using Marscore.Consensus.PerformanceCounters.Rules;
-using Marscore.Consensus.Rules;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.Base;
+using Martiscoin.Base.Deployments;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.Checkpoints;
+using Martiscoin.Consensus.PerformanceCounters.Rules;
+using Martiscoin.Consensus.Rules;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <inheritdoc />
     public abstract class ConsensusRuleEngine : IConsensusRuleEngine

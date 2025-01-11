@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin.BIP39;
+using Martiscoin.NBitcoin.BIP39;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     internal class BitReader
     {

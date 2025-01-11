@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Utilities;
+using Martiscoin.AsyncWork;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus.Validators
+namespace Martiscoin.Consensus.Validators
 {
     /// <summary>
     /// A callback that is invoked when <see cref="IPartialValidator.StartPartialValidation"/> completes validation of a block.

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     /// <summary>
     /// Data structure for connected peer node.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     internal class OutputLengthException
         : DataLengthException

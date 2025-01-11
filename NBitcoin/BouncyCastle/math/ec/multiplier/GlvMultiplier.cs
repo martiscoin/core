@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.NBitcoin.BouncyCastle.math.ec.endo;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.endo;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     internal class GlvMultiplier
         : AbstractECMultiplier

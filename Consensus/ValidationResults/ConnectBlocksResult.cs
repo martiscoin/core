@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Consensus.ValidationResults
+namespace Martiscoin.Consensus.ValidationResults
 {
     /// <summary>
     /// Information related to the block full validation process.

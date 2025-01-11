@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
 
     public interface IBase58Data : IBitcoinString

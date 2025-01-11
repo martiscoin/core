@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Globalization;
 
-namespace Marscore.NBitcoin.BouncyCastle.util
+namespace Martiscoin.NBitcoin.BouncyCastle.util
 {
     internal abstract class Platform
     {

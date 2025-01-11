@@ -1,10 +1,10 @@
 ﻿using System;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.OpenAsset;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.OpenAsset;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public interface IColoredCoin : ICoin
     {

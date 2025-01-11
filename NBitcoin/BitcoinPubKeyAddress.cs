@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// Base58 representation of a pubkey hash and base class for the representation of a script hash

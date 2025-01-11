@@ -1,7 +1,7 @@
-﻿using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
+﻿using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     /// <summary>
     /// Contains the <see cref="ScriptVerify" /> and <see cref="Transaction.LockTimeFlags" /> flags to set

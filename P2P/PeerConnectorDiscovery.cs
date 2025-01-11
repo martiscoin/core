@@ -1,16 +1,16 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration;
-using Marscore.Configuration.Settings;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// The connector used to connect to peers added via peer discovery.

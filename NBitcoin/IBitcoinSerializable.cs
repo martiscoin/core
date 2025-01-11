@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using Marscore.Consensus;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public interface IBitcoinSerializable
     {

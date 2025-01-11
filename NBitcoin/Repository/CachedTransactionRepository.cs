@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Utilities;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Utilities;
 
-namespace Marscore.NBitcoin.Repository
+namespace Martiscoin.NBitcoin.Repository
 {
     public class CachedTransactionRepository : ITransactionRepository
     {

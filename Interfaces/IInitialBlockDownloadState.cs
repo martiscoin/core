@@ -1,4 +1,4 @@
-﻿namespace Marscore.Interfaces
+﻿namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Provides IBD (Initial Block Download) state.

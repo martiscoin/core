@@ -1,6 +1,6 @@
-﻿using Marscore.Consensus.TransactionInfo;
+﻿using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// Represents a transaction being sent on the network, is sent after being requested by a getdata (of Transaction or MerkleBlock) message.

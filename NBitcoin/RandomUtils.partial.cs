@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class RandomNumberGeneratorRandom : IRandom
     {

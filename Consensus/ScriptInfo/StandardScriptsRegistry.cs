@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.BitcoinCore;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.BitcoinCore;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     /// <summary>
     /// Injected proxy to <see cref="StandardScripts"/>.

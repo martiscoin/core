@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Consensus.Chain;
-using Marscore.P2P;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.P2P;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     /// <summary>
     /// If the light wallet is only connected to nodes behind

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BuilderExtensions;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.OpenAsset;
-using Marscore.NBitcoin.Policy;
-using Marscore.Networks;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BuilderExtensions;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.OpenAsset;
+using Martiscoin.NBitcoin.Policy;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.TransactionInfo
+namespace Martiscoin.Consensus.TransactionInfo
 {
     [Flags]
     public enum ChangeType : int

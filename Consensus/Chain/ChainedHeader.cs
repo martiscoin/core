@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.Networks;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.Chain
+namespace Martiscoin.Consensus.Chain
 {
     /// <summary>
     /// Represents the availability state of a block.

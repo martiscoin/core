@@ -1,4 +1,4 @@
-﻿namespace Marscore.Base.Deployments
+﻿namespace Martiscoin.Base.Deployments
 {
     public enum ThresholdState
     {

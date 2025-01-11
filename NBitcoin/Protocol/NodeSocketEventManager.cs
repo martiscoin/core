@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Marscore.NBitcoin.Protocol
+namespace Martiscoin.NBitcoin.Protocol
 {
     /// <summary>
     /// Singleton class which deals with a single instance of <see cref="SocketAsyncEventArgs"/>.

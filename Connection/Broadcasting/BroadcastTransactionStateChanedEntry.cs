@@ -1,9 +1,9 @@
 ﻿using System;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Marscore.Connection.Broadcasting
+namespace Martiscoin.Connection.Broadcasting
 {
     public class BroadcastTransactionStateChanedEntry
     {

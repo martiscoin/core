@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert an object implementing <see cref="IBitcoinSerializable"/> to and from JSON.

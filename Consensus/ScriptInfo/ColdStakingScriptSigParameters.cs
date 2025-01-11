@@ -1,7 +1,7 @@
-﻿using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+﻿using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     /// <summary>
     /// The scriptSig parameters used for cold staking script.

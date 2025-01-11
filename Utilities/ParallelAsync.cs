@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public static class ParallelAsync
     {

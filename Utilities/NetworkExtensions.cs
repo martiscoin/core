@@ -1,6 +1,6 @@
-﻿using Marscore.Networks;
+﻿using Martiscoin.Networks;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Extension methods for NBitcoin's Network class.

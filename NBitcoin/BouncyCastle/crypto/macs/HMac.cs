@@ -1,8 +1,8 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.macs
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.macs
 {
     /**
     * HMAC implementation based on RFC2104

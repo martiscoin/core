@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// Represent the challenge that miners must solve for finding a new block

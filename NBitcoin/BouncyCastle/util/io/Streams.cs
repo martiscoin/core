@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Marscore.NBitcoin.BouncyCastle.util.io
+namespace Martiscoin.NBitcoin.BouncyCastle.util.io
 {
     internal sealed class Streams
     {

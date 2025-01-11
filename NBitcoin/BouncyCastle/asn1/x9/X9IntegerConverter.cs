@@ -1,8 +1,8 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     internal abstract class X9IntegerConverter
     {

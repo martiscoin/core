@@ -1,11 +1,11 @@
 ﻿using System;
-using Marscore.Consensus;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     public class DeploymentFlags
     {

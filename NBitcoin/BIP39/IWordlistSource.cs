@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Marscore.NBitcoin.BIP39
+namespace Martiscoin.NBitcoin.BIP39
 {
     public interface IWordlistSource
     {

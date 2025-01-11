@@ -5,12 +5,12 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Reflection;
 using System.Text;
-using Marscore.Consensus;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public enum SerializationType
     {

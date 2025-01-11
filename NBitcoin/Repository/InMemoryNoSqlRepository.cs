@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Networks;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.Repository
+namespace Martiscoin.NBitcoin.Repository
 {
     public class InMemoryNoSqlRepository : NoSqlRepository
     {

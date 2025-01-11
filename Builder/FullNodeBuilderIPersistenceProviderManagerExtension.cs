@@ -1,6 +1,6 @@
-﻿using Marscore.Persistence;
+﻿using Martiscoin.Persistence;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// A class providing extension methods for <see cref="IFullNodeBuilder"/>.

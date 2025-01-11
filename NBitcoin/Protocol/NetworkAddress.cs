@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Marscore.NBitcoin.Protocol
+namespace Martiscoin.NBitcoin.Protocol
 {
     public class NetworkAddress : IBitcoinSerializable
     {

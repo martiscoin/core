@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public enum SequenceLockType
     {

@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     public interface IConnectionManagerBehavior : INetworkPeerBehavior
     {

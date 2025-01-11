@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     public class Payload : IBitcoinSerializable
     {

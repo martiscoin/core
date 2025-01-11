@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Signals;
-using Marscore.Utilities;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Signals;
+using Martiscoin.Utilities;
 using ConcurrentCollections;
 
-namespace Marscore.Connection.Broadcasting
+namespace Martiscoin.Connection.Broadcasting
 {
     public class BroadcasterManager : IBroadcasterManager
     {

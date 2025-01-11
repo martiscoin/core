@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Marscore.NBitcoin.BouncyCastle.math.raw;
+using Martiscoin.NBitcoin.BouncyCastle.math.raw;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.custom.sec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.custom.sec
 {
     internal class SecP256K1Field
     {

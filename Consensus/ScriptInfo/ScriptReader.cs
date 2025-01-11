@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     public class Op
     {

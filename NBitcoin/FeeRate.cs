@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class FeeRate : IEquatable<FeeRate>, IComparable<FeeRate>
     {

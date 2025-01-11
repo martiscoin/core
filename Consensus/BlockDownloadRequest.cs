@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// A request to the block puller that holds the chained headers of the blocks that are requested for download.

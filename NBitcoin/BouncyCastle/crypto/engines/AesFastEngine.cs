@@ -1,9 +1,9 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.crypto.util;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.engines
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.engines
 {
     /**
     * an implementation of the AES (Rijndael)), from FIPS-197.

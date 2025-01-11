@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Base.Deployments;
-using Marscore.Utilities;
+using Martiscoin.Base.Deployments;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus.Rules
+namespace Martiscoin.Consensus.Rules
 {
     /// <summary>
     /// Context that contains variety of information regarding blocks validation and execution.

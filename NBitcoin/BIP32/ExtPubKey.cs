@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BIP32
+namespace Martiscoin.NBitcoin.BIP32
 {
     /// <summary>
     /// A public HD key

@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     /**
     * Class implementing the WNAF (Window Non-Adjacent Form) multiplication

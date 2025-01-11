@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-using Marscore.Configuration;
+using Martiscoin.Configuration;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>Contract for <see cref="PeerAddressManager"/>.</summary>
     public interface IPeerAddressManager : IDisposable

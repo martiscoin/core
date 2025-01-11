@@ -1,7 +1,7 @@
-using Marscore.NBitcoin.BouncyCastle.crypto.util;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.digests
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.digests
 {
     /**
      * Draft FIPS 180-2 implementation of SHA-384. <b>Note:</b> As this is

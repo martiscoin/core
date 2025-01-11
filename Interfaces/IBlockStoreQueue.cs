@@ -1,8 +1,8 @@
 ﻿using System.Threading;
-using Marscore.Consensus;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     public interface IBlockStoreQueue : IBlockStore
     {

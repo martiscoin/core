@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.BitcoinCore;
-using Marscore.NBitcoin.Policy;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.BitcoinCore;
+using Martiscoin.NBitcoin.Policy;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     public static class StandardScripts
     {

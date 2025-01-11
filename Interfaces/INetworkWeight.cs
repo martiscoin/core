@@ -1,4 +1,4 @@
-﻿namespace Marscore.Interfaces
+﻿namespace Martiscoin.Interfaces
 {
     public interface INetworkWeight
     {

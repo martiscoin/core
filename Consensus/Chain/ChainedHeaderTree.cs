@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Base;
-using Marscore.Configuration.Settings;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Checkpoints;
-using Marscore.Consensus.Validators;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.Base;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Checkpoints;
+using Martiscoin.Consensus.Validators;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus.Chain
+namespace Martiscoin.Consensus.Chain
 {
     /// <summary>
     /// Tree of chained block headers that are being claimed by the connected peers and the node itself.

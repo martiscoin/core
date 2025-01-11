@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public static class DBH
     {

@@ -1,7 +1,7 @@
-﻿using Marscore.Consensus.BlockInfo;
-using Marscore.Utilities;
+﻿using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus.Chain
+namespace Martiscoin.Consensus.Chain
 {
     /// <summary>
     /// Structure made of a block and its chained header.

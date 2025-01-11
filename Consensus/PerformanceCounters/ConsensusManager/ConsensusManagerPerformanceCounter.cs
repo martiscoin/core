@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Consensus.Chain;
-using Marscore.Utilities;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus.PerformanceCounters.ConsensusManager
+namespace Martiscoin.Consensus.PerformanceCounters.ConsensusManager
 {
     public class ConsensusManagerPerformanceCounter
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public struct LockTime : IBitcoinSerializable
     {

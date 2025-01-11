@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 using DBreeze.Utils;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Implementation of serialization and deserialization of objects that go into the DBreeze database.

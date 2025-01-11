@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Networks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Marscore.NBitcoin.Formatters
+namespace Martiscoin.NBitcoin.Formatters
 {
     internal abstract class RawFormatter
     {

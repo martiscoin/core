@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Marscore.NBitcoin.BouncyCastle.crypto.util;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.raw
+namespace Martiscoin.NBitcoin.BouncyCastle.math.raw
 {
     internal abstract class Nat
     {

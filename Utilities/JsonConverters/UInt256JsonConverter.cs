@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="uint256"/> to and from JSON.

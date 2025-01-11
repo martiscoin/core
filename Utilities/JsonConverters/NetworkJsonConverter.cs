@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Marscore.Networks;
+using Martiscoin.Networks;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert the name of a network in JSON to the corresponding <see cref="Network"/>.

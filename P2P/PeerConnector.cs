@@ -4,16 +4,16 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration;
-using Marscore.Configuration.Settings;
-using Marscore.Connection;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.Utilities;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Connection;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>Contract for <see cref="PeerConnector"/>.</summary>
     public interface IPeerConnector : IDisposable

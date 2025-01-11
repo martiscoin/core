@@ -1,6 +1,6 @@
-using Marscore.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.paddings
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.paddings
 {
     /**
     * A padder that adds Pkcs7/Pkcs5 padding to a block.

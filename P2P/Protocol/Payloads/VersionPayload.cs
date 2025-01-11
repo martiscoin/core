@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Net;
 using System.Reflection;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     [Flags]
     public enum NetworkPeerServices : ulong

@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// An exception that is used when consensus breaking errors are found.

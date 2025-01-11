@@ -1,7 +1,7 @@
-﻿using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.security;
+﻿using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.signers
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.signers
 {
     /**
      * Interface define calculators of K values for DSA/ECDSA.

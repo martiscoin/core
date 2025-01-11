@@ -1,7 +1,7 @@
-﻿using Marscore.Connection;
-using Marscore.P2P.Peer;
+﻿using Martiscoin.Connection;
+using Martiscoin.P2P.Peer;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class PeerExtensions
     {

@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal abstract class Asn1Generator
     {

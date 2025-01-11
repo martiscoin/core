@@ -1,10 +1,10 @@
 ﻿using System;
-using Marscore.Configuration.Settings;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// A context that is used by consensus that is required for validation, in case validation failed the <see cref="ValidationContext.Error"/> property will be set.

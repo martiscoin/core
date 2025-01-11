@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.BouncyCastle.math.ec
+﻿namespace Martiscoin.NBitcoin.BouncyCastle.math.ec
 {
     internal class ScaleXPointMap
         : ECPointMap

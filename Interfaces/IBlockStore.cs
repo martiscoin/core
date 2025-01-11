@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Represent access to the store of <see cref="Block"/>.

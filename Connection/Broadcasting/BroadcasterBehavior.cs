@@ -2,15 +2,15 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Interfaces;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.Interfaces;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection.Broadcasting
+namespace Martiscoin.Connection.Broadcasting
 {
     public class BroadcasterBehavior : NetworkPeerBehavior
     {

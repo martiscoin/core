@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Marscore.AsyncWork
+namespace Martiscoin.AsyncWork
 {
     public partial class AsyncProvider : IAsyncProvider
     {

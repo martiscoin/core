@@ -1,6 +1,6 @@
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Base
+namespace Martiscoin.Base
 {
     /// <summary>
     /// Chain state holds various information related to the status of the chain and its validation.

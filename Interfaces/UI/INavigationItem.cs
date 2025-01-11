@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Marscore.Interfaces.UI
+namespace Martiscoin.Interfaces.UI
 {
     public interface INavigationItem
     {

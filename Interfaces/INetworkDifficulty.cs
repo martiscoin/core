@@ -1,6 +1,6 @@
-﻿using Marscore.NBitcoin;
+﻿using Martiscoin.NBitcoin;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     public interface INetworkDifficulty
     {

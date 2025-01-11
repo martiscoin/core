@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Marscore.Properties {
+namespace Martiscoin.core.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Marscore.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Marscore.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Martiscoin.core.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -62,12 +62,11 @@ namespace Marscore.Properties {
         
         /// <summary>
         ///   查找类似 
-        ///.___  ___.      ___      .______          _______.  ______   ______    __  .__   __. 
-        ///|   \/   |     /   \     |   _  \        /       | /      | /  __  \  |  | |  \ |  | 
-        ///|  \  /  |    /  ^  \    |  |_)  |      |   (----`|  ,----&apos;|  |  |  | |  | |   \|  | 
-        ///|  |\/|  |   /  /_\  \   |      /        \   \    |  |     |  |  |  | |  | |  . `  | 
-        ///|  |  |  |  /  _____  \  |  |\  \----.----)   |   |  `----.|  `--&apos;  | |  | |  |\   | 
-        ///|__|  |__| /__/     \__\ | _| `._____|_______/     \______| \______/  |__|  [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///___  ___.      ___      .______     .___________. __       _______.  ______   ______    __  .__   __. 
+        ///|   \/   |     /   \     |   _  \    |           ||  |     /       | /      | /  __  \  |  | |  \ |  | 
+        ///|  \  /  |    /  ^  \    |  |_)  |   `---|  |----`|  |    |   (----`|  ,----&apos;|  |  |  | |  | |   \|  | 
+        ///|  |\/|  |   /  /_\  \   |      /        |  |     |  |     \   \    |  |     |  |  |  | |  | |  . `  | 
+        ///|  |  |  |  /  _____  \  |  |\  \----.   |  |     |  | .----)   |   |  `----.|  `--&apos;  | |   [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Logo {
             get {

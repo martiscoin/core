@@ -1,9 +1,9 @@
 ﻿using System;
-using Marscore.Consensus;
-using Marscore.Consensus.Chain;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>Pair of block hash and block height.</summary>
     public class HashHeightPair : IBitcoinSerializable

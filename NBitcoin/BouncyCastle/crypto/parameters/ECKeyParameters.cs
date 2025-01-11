@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.parameters
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.parameters
 {
     internal abstract class ECKeyParameters
         : AsymmetricKeyParameter

@@ -1,9 +1,9 @@
-using Marscore.Configuration;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Behaviors;
+using Martiscoin.Configuration;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Behaviors;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     /// <summary>
     /// A behaviour that will manage the lifetime of peers.

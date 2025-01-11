@@ -1,9 +1,9 @@
-﻿using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
-using uint256 = Marscore.NBitcoin.uint256;
+﻿using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
+using uint256 = Martiscoin.NBitcoin.uint256;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     public enum RejectCode : byte
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Marscore.Configuration.Settings
+namespace Martiscoin.Configuration.Settings
 {
     /// <summary>
     /// Configuration related to logging.

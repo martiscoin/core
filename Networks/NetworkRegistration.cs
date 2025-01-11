@@ -2,9 +2,9 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Networks
+namespace Martiscoin.Networks
 {
     /// <summary>
     /// A container for storing/retrieving known networks.

@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     /**
     * Interface for classes encapsulating a point multiplication algorithm

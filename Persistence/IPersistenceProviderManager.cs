@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Marscore.Builder.Feature;
+using Martiscoin.Builder.Feature;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Persistence
+namespace Martiscoin.Persistence
 {
     /// <summary>
     /// Used by features to require a persistence implementation.

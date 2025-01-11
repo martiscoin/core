@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// An implementation of uint256 based on https://github.com/MithrilMan/MithrilShards

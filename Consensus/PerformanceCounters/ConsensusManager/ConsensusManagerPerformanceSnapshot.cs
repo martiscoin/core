@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.Consensus.PerformanceCounters.ConsensusManager
+namespace Martiscoin.Consensus.PerformanceCounters.ConsensusManager
 {
     /// <summary>Snapshot of <see cref="ConsensusManager"/> performance.</summary>
     public class ConsensusManagerPerformanceSnapshot

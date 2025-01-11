@@ -4,18 +4,18 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.EventBus.CoreEvents.Peer;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.AsyncWork;
+using Martiscoin.EventBus.CoreEvents.Peer;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     /// <summary>
     /// Represents a network connection to a peer. It is responsible for reading incoming messages

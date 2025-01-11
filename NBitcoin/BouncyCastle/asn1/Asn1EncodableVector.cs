@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal class Asn1EncodableVector
         : IEnumerable

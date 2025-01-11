@@ -1,7 +1,7 @@
 ﻿using System.Collections;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin.Protocol
+namespace Martiscoin.NBitcoin.Protocol
 {
     public class UTxOutputs : IBitcoinSerializable
     {

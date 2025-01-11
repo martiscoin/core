@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.Base.Deployments;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
+using Martiscoin.Base.Deployments;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     public interface IConsensus
     {

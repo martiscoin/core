@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Networks;
+using Martiscoin.Networks;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Contains a collection of helpers methods.

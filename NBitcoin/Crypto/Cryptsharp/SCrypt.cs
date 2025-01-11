@@ -21,11 +21,11 @@ using System;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
-using Marscore.NBitcoin.BouncyCastle.crypto.macs;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.macs;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
 
-namespace Marscore.NBitcoin.Crypto.Cryptsharp
+namespace Martiscoin.NBitcoin.Crypto.Cryptsharp
 {
     // See http://www.tarsnap.com/scrypt/scrypt.pdf for algorithm details.
     // TODO: Test on a big-endian machine and make sure it works.

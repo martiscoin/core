@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Marscore.P2P;
-using Marscore.P2P.Peer;
-using Marscore.Utilities;
+using Martiscoin.P2P;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     /// <summary>
     /// Contract for network peer banning provider.

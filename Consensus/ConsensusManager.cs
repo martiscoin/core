@@ -3,27 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Marscore.Base;
-using Marscore.BlockPulling;
-using Marscore.Configuration.Logging;
-using Marscore.Configuration.Settings;
-using Marscore.Connection;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.PerformanceCounters.ConsensusManager;
-using Marscore.Consensus.ValidationResults;
-using Marscore.Consensus.Validators;
-using Marscore.EventBus.CoreEvents;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.Signals;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Base;
+using Martiscoin.BlockPulling;
+using Martiscoin.Configuration.Logging;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Connection;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.PerformanceCounters.ConsensusManager;
+using Martiscoin.Consensus.ValidationResults;
+using Martiscoin.Consensus.Validators;
+using Martiscoin.EventBus.CoreEvents;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Signals;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <inheritdoc cref="IConsensusManager"/>
     public class ConsensusManager : IConsensusManager

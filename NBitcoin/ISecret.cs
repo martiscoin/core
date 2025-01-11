@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin
+﻿namespace Martiscoin.NBitcoin
 {
     public interface ISecret
     {

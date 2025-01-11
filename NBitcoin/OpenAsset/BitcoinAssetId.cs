@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Networks;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.OpenAsset
+namespace Martiscoin.NBitcoin.OpenAsset
 {
     /// <summary>
     /// Base58 representation of an asset id

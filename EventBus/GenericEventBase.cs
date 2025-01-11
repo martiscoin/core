@@ -1,4 +1,4 @@
-﻿namespace Marscore.EventBus
+﻿namespace Martiscoin.EventBus
 {
     /// <summary>
     /// Basic implementation of a generic <see cref="EventBase"/> that exposes a typed Content property.

@@ -1,9 +1,9 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.math.ec.endo;
-using Marscore.NBitcoin.BouncyCastle.math.ec.multiplier;
-using Marscore.NBitcoin.BouncyCastle.math.field;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.endo;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier;
+using Martiscoin.NBitcoin.BouncyCastle.math.field;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec
 {
     internal class ECAlgorithms
     {

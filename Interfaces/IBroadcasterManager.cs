@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Connection.Broadcasting;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Connection.Broadcasting;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Allow to check a transaction is valid before broadcasting it.

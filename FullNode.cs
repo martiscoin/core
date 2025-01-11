@@ -2,20 +2,20 @@
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Base;
-using Marscore.Builder;
-using Marscore.Configuration;
-using Marscore.Connection;
-using Marscore.Consensus;
-using Marscore.Consensus.Chain;
-using Marscore.Interfaces;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.AsyncWork;
+using Martiscoin.Base;
+using Martiscoin.Builder;
+using Martiscoin.Configuration;
+using Martiscoin.Connection;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Interfaces;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore
+namespace Martiscoin
 {
     /// <summary>
     /// Node providing all supported features of the blockchain and its network.
@@ -175,7 +175,7 @@ namespace Marscore
 
             this.AsyncProvider = this.Services.ServiceProvider.GetService<IAsyncProvider>();
 
-            this.logger.LogInformation(Properties.MarscoreLogo.Logo);
+            this.logger.LogInformation(core.Properties.MartiscoinLogo.Logo);
             this.logger.LogInformation("Full node initialized on {0}.", this.Network.Name);
 
             this.State = FullNodeState.Initialized;

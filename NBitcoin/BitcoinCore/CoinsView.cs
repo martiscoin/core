@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Consensus;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.Repository;
-using Marscore.Networks;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.Repository;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BitcoinCore
+namespace Martiscoin.NBitcoin.BitcoinCore
 {
     public class CoinsView
     {

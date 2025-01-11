@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.BlockInfo;
+using Martiscoin.Consensus.BlockInfo;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class MerkleBlock : IBitcoinSerializable
     {

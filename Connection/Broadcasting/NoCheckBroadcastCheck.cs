@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Interfaces;
-using Marscore.Utilities;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Interfaces;
+using Martiscoin.Utilities;
 
-namespace Marscore.Connection.Broadcasting
+namespace Martiscoin.Connection.Broadcasting
 {
     /// <summary>
     /// Broadcast that makes not checks.

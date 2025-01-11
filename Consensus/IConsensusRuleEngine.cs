@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Chain;
-using Marscore.Consensus.Rules;
-using Marscore.Utilities;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Consensus.Rules;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// An engine that enforce the execution and validation of consensus rule.

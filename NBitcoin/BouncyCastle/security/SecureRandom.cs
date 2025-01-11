@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.BouncyCastle.security
+namespace Martiscoin.NBitcoin.BouncyCastle.security
 {
     internal class SecureRandom : Random
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Persistence
+namespace Martiscoin.Persistence
 {
     /// <summary>
     /// Used to require a persistence implementation.
@@ -11,7 +11,7 @@ namespace Marscore.Persistence
     {
         /// <summary>
         /// Gets the name of the persistence implementation.
-        /// This is the value that will be checked against <see cref="Marscore.Configuration.NodeSettings.DbType"/>.
+        /// This is the value that will be checked against <see cref="Martiscoin.Configuration.NodeSettings.DbType"/>.
         /// </summary>
         /// <remarks>Case Insensitive.</remarks>
         public string PersistenceImplementation { get; }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin.Policy
+namespace Martiscoin.NBitcoin.Policy
 {
     public class TransactionPolicyError
     {

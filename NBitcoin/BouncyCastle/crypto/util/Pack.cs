@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto.util
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.util
 {
     internal sealed class Pack
     {

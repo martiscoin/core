@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
-using static Marscore.Consensus.ScriptInfo.OpcodeType;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
+using static Martiscoin.Consensus.ScriptInfo.OpcodeType;
 
-namespace Marscore.Consensus.ScriptInfo
+namespace Martiscoin.Consensus.ScriptInfo
 {
     /// <summary>
     /// Script template for the cold staking script.
@@ -89,7 +89,7 @@ namespace Marscore.Consensus.ScriptInfo
         /// them elsewhere. This behavior is enforced by the <see cref="OP_CHECKCOLDSTAKEVERIFY"/>
         /// opcode within the script flow related to hot wallet key usage. It sets the <see cref="PosTransaction.IsColdCoinStake"/>
         /// flag if the transaction spending an output, which contains this instruction, is a coinstake
-        /// transaction. If this flag is set then further rules are enforced by <see cref="Marscore.Features.Consensus.Rules.CommonRules.PosColdStakingRule"/>.
+        /// transaction. If this flag is set then further rules are enforced by <see cref="Martiscoin.Features.Consensus.Rules.CommonRules.PosColdStakingRule"/>.
         /// </remarks>
         /// <param name="hotPubKeyHash">The hot wallet public key hash to use.</param>
         /// <param name="coldPubKeyHash">The cold wallet public key hash to use.</param>

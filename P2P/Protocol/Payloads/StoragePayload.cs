@@ -1,12 +1,12 @@
-﻿using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
+﻿using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     [Payload("storage")]
     public class StoragePayload : Payload

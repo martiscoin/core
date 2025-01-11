@@ -6,22 +6,22 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration;
-using Marscore.Configuration.Logging;
-using Marscore.Configuration.Settings;
-using Marscore.Consensus;
-using Marscore.Interfaces;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration;
+using Martiscoin.Configuration.Logging;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     public sealed class ConnectionManager : IConnectionManager
     {

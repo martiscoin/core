@@ -1,9 +1,9 @@
-﻿using Marscore.Consensus.ScriptInfo;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.Networks;
+﻿using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <inheritdoc cref="IScriptAddressReader"/>
     public class ScriptAddressReader : IScriptAddressReader

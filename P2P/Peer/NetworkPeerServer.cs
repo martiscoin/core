@@ -4,18 +4,18 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration.Settings;
-using Marscore.EventBus.CoreEvents.Peer;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Signals;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.EventBus.CoreEvents.Peer;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Signals;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     public class NetworkPeerServer : IDisposable
     {

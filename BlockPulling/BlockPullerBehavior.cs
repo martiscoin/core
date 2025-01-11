@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Marscore.Consensus.Chain;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol;
-using Marscore.P2P.Protocol.Behaviors;
-using Marscore.P2P.Protocol.Payloads;
-using Marscore.Utilities;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol;
+using Martiscoin.P2P.Protocol.Behaviors;
+using Martiscoin.P2P.Protocol.Payloads;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.BlockPulling
+namespace Martiscoin.BlockPulling
 {
     /// <summary>
     /// Relation of the node's puller to a network peer node.

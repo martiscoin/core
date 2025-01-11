@@ -1,0 +1,17 @@
+D:\source\blockcore-node\src\Blockcore\bin\Release\net8.0\Blockcore.deps.json
+D:\source\blockcore-node\src\Blockcore\bin\Release\net8.0\Blockcore.dll
+D:\source\blockcore-node\src\Blockcore\bin\Release\net8.0\Blockcore.pdb
+D:\source\blockcore-node\src\Blockcore\bin\Release\net8.0\Blockcore.xml
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.csproj.AssemblyReference.cache
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.Properties.Resources.resources
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.csproj.GenerateResource.cache
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.AssemblyInfoInputs.cache
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.AssemblyInfo.cs
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.csproj.CoreCompileInputs.cache
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.sourcelink.json
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.dll
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\refint\Blockcore.dll
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.xml
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\Blockcore.pdb
+D:\source\blockcore-node\src\Blockcore\obj\Release\net8.0\ref\Blockcore.dll

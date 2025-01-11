@@ -1,4 +1,4 @@
-﻿namespace Marscore.P2P.Protocol
+﻿namespace Martiscoin.P2P.Protocol
 {
     /// <summary>
     /// Contract for a recipient part of a consumer logic that handles incoming messages.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Supports object-level locking and allows external work in the context of the locks.

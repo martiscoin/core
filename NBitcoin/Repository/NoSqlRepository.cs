@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Marscore.Networks;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.Repository
+namespace Martiscoin.NBitcoin.Repository
 {
     public abstract class NoSqlRepository
     {

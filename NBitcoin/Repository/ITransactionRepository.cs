@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin.Repository
+namespace Martiscoin.NBitcoin.Repository
 {
     /// <summary>
     /// Represent a transaction map

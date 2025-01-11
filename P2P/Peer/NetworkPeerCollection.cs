@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 using ConcurrentCollections;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     public class NetworkPeerEventArgs : EventArgs
     {

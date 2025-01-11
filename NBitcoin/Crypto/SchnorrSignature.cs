@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
-using Marscore.NBitcoin.BouncyCastle.crypto.ec;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec.custom.sec;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.custom.sec;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {
 	/// <summary>
 	/// Schnorr Signatures using Bouncy Castle

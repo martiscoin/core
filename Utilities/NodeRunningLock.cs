@@ -1,7 +1,7 @@
 ﻿using System.IO;
-using Marscore.Configuration;
+using Martiscoin.Configuration;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Class that prevents another instance of the node to run in the same data folder

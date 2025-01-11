@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Allows consumers to perform cleanup during a graceful shutdown.

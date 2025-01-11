@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Protocol.Filters
+namespace Martiscoin.P2P.Protocol.Filters
 {
     /// <summary>
     /// Contract to intercept sent and received messages.

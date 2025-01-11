@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
 
-namespace Marscore.NBitcoin.Crypto
+namespace Martiscoin.NBitcoin.Crypto
 {
     public class HashStream : Stream
     {

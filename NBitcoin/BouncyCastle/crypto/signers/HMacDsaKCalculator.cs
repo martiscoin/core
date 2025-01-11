@@ -1,11 +1,11 @@
 ﻿using System;
-using Marscore.NBitcoin.BouncyCastle.crypto.macs;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.security;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.macs;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.signers
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.signers
 {
     /**
      * A deterministic K calculator based on the algorithm in section 3.2 of RFC 6979.

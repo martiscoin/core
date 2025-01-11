@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Marscore.Configuration.Settings;
+using Martiscoin.Configuration.Settings;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 using NLog;
@@ -13,7 +13,7 @@ using NLog.Targets;
 using NLog.Targets.Wrappers;
 using LogLevel = Microsoft.Extensions.Logging.LogLevel;
 
-namespace Marscore.Configuration.Logging
+namespace Martiscoin.Configuration.Logging
 {
     /// <summary>
     /// An extension of the <see cref="LoggerFactory"/> that allows access to some internal components.
@@ -50,7 +50,7 @@ namespace Marscore.Configuration.Logging
                     .AddFilter("System", LogLevel.Warning)
                     .AddFilter("Microsoft", LogLevel.Warning)
                     .AddFilter("Microsoft.AspNetCore", LogLevel.Error)
-                    .AddFilter<ConsoleLoggerProvider>($"{nameof(Marscore)}.*", LogLevel.Information)
+                    .AddFilter<ConsoleLoggerProvider>($"{nameof(Martiscoin)}.*", LogLevel.Information)
                     .AddConsole();
 
                 builder.SetMinimumLevel(LogLevel.Debug);
@@ -85,7 +85,7 @@ namespace Marscore.Configuration.Logging
             // { "libevent", "" },
             // { "lock", "" },
             // { "mempoolrej", "" },
-            { "net", $"{nameof(Marscore)}.{nameof(Connection)}.*" },
+            { "net", $"{nameof(Martiscoin)}.{nameof(Connection)}.*" },
             // { "proxy", "" },
             // { "prune", "" },
             // { "rand", "" },
@@ -96,8 +96,8 @@ namespace Marscore.Configuration.Logging
             // { "zmq", "" },
 
             // Short Names
-            { "configuration", $"{nameof(Marscore)}.{nameof(Configuration)}.*" },
-            { "fullnode", $"{nameof(Marscore)}.{nameof(FullNode)}" },
+            { "configuration", $"{nameof(Martiscoin)}.{nameof(Configuration)}.*" },
+            { "fullnode", $"{nameof(Martiscoin)}.{nameof(FullNode)}" },
         };
 
         public static void RegisterFeatureNamespace<T>(string key)
@@ -205,7 +205,7 @@ namespace Marscore.Configuration.Logging
             LogManager.Configuration.AddTarget(mainTarget);
 
             // Default logging level is Info for all components.
-            var defaultRule = new LoggingRule($"{nameof(Marscore)}.*", settings.LogLevel, mainTarget);
+            var defaultRule = new LoggingRule($"{nameof(Martiscoin)}.*", settings.LogLevel, mainTarget);
 
             if (settings.DebugArgs.Any() && settings.DebugArgs[0] != "1")
             {
@@ -218,7 +218,7 @@ namespace Marscore.Configuration.Logging
                     {
                         if (!KeyCategories.TryGetValue(key.Trim(), out string category))
                         {
-                            // Allow direct specification - e.g. "-debug=Marscore.Miner".
+                            // Allow direct specification - e.g. "-debug=Martiscoin.Miner".
                             category = key.Trim();
                         }
 
@@ -263,7 +263,7 @@ namespace Marscore.Configuration.Logging
                     if (settings.DebugArgs[0] == "1")
                     {
                         // Increase all logging to Debug.
-                        builder.AddFilter<ConsoleLoggerProvider>($"{nameof(Marscore)}", Microsoft.Extensions.Logging.LogLevel.Debug);
+                        builder.AddFilter<ConsoleLoggerProvider>($"{nameof(Martiscoin)}", Microsoft.Extensions.Logging.LogLevel.Debug);
                     }
                     else
                     {
@@ -276,7 +276,7 @@ namespace Marscore.Configuration.Logging
                             {
                                 if (!KeyCategories.TryGetValue(key.Trim(), out string category))
                                 {
-                                    // Allow direct specification - e.g. "-debug=Marscore.Miner".
+                                    // Allow direct specification - e.g. "-debug=Martiscoin.Miner".
                                     category = key.Trim();
                                 }
 

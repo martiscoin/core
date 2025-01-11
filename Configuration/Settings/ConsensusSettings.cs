@@ -1,10 +1,10 @@
 ﻿using System.Text;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Configuration.Settings
+namespace Martiscoin.Configuration.Settings
 {
     /// <summary>
     /// Configurable settings for the consensus feature.

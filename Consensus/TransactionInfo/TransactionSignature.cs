@@ -1,12 +1,12 @@
 ﻿using System;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.TransactionInfo
+namespace Martiscoin.Consensus.TransactionInfo
 {
     public class TransactionSignature
     {

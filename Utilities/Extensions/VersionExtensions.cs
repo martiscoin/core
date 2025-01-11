@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     /// <summary>
     /// Extension methods for Version class.

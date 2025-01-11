@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.EventBus
+namespace Martiscoin.EventBus
 {
     /// <summary>
     /// Default implementation of <see cref="ISubscriptionErrorHandler"/> that log the error and re-throw it.

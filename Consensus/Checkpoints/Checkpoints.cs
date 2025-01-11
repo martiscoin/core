@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Configuration.Settings;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 
-namespace Marscore.Consensus.Checkpoints
+namespace Martiscoin.Consensus.Checkpoints
 {
     /// <summary>
     /// Interface of block header hash checkpoint provider.

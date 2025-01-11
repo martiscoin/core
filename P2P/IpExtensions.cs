@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     public static class IpExtensions
     {

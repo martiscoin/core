@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public static class IpHelper
     {

@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Marscore.NBitcoin.BouncyCastle.util.encoders
+namespace Martiscoin.NBitcoin.BouncyCastle.util.encoders
 {
     /// <summary>
     /// Class to decode and encode Hex.

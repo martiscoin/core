@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.BuilderExtensions
+namespace Martiscoin.NBitcoin.BuilderExtensions
 {
     public class P2MultiSigBuilderExtension : BuilderExtension
     {

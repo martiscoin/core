@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.DataEncoders;
 using HashLib;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// Type representation of data used in a bloom filter.

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.NBitcoin.OpenAsset
+namespace Martiscoin.NBitcoin.OpenAsset
 {
     public class ColorMarker : IBitcoinSerializable
     {

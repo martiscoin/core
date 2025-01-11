@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// An attribute that enables mapping between command names and P2P netowrk types.

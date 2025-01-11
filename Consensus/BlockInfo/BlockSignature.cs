@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.Consensus.BlockInfo
+namespace Martiscoin.Consensus.BlockInfo
 {
     /// <summary>
     /// A representation of a block signature.

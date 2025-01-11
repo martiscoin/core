@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Utilities;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.EventBus
+namespace Martiscoin.EventBus
 {
     public class InMemoryEventBus : IEventBus
     {

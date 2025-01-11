@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Newtonsoft.Json;
 
-namespace Marscore.EventBus.CoreEvents.Peer
+namespace Martiscoin.EventBus.CoreEvents.Peer
 {
     /// <summary>
     /// Base peer event.

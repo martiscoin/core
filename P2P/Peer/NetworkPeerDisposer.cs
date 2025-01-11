@@ -3,10 +3,10 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
+using Martiscoin.AsyncWork;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P.Peer
+namespace Martiscoin.P2P.Peer
 {
     /// <summary>Maintains a list of connected peers and ensures their proper disposal.</summary>
     /// <remarks>

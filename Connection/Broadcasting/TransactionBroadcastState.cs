@@ -1,4 +1,4 @@
-﻿namespace Marscore.Connection.Broadcasting
+﻿namespace Martiscoin.Connection.Broadcasting
 {
     public enum TransactionBroadcastState
     {

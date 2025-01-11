@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     public interface INBitcoinBlockRepository
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class SequenceLock
     {

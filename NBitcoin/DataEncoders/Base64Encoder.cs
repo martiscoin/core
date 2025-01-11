@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.NBitcoin.DataEncoders
+namespace Martiscoin.NBitcoin.DataEncoders
 {
     public class Base64Encoder : DataEncoder
     {

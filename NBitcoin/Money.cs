@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin.OpenAsset;
+using Martiscoin.NBitcoin.OpenAsset;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public static class MoneyExtensions
     {

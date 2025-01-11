@@ -1,7 +1,7 @@
 ﻿using System.Net;
-using Marscore.P2P.Protocol;
+using Martiscoin.P2P.Protocol;
 
-namespace Marscore.EventBus.CoreEvents.Peer
+namespace Martiscoin.EventBus.CoreEvents.Peer
 {
     /// <summary>
     /// A peer message has been received and parsed

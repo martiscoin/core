@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.P2P.Protocol.Behaviors
+namespace Martiscoin.P2P.Protocol.Behaviors
 {
     [Flags]
     public enum PingPongMode

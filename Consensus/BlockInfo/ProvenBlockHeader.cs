@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Consensus.BlockInfo
+namespace Martiscoin.Consensus.BlockInfo
 {
     /// <summary>
     /// <para>

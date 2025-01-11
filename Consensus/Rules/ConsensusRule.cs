@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus.Rules
+namespace Martiscoin.Consensus.Rules
 {
     public class ConsensusRulesContainer
     {

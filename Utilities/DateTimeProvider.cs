@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Utilities.Extensions;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Providing date time functionality.

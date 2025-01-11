@@ -1,7 +1,7 @@
 using System;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.crypto.digests
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto.digests
 {
     /**
     * base implementation of MD4 family style digest as outlined in

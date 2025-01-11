@@ -1,12 +1,12 @@
 using System.Collections;
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.BouncyCastle.math.ec;
-using Marscore.NBitcoin.BouncyCastle.math.ec.endo;
-using Marscore.NBitcoin.BouncyCastle.util;
-using Marscore.NBitcoin.BouncyCastle.util.encoders;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec;
+using Martiscoin.NBitcoin.BouncyCastle.math.ec.endo;
+using Martiscoin.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util.encoders;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.sec
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.sec
 {
     internal sealed class SecNamedCurves
     {

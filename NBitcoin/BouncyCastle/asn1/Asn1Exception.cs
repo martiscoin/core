@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal class Asn1Exception
         : IOException

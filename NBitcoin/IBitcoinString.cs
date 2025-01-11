@@ -1,6 +1,6 @@
-﻿using Marscore.Networks;
+﻿using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public interface IBitcoinString
     {

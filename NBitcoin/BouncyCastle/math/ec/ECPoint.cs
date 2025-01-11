@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec
 {
     /**
      * base class for points on elliptic curves.

@@ -1,8 +1,8 @@
 ﻿using System.Net;
-using Marscore.P2P.Protocol;
+using Martiscoin.P2P.Protocol;
 using Newtonsoft.Json;
 
-namespace Marscore.EventBus.CoreEvents.Peer
+namespace Martiscoin.EventBus.CoreEvents.Peer
 {
     /// <summary>
     /// A peer message failed to be sent.

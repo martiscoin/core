@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.crypto
+namespace Martiscoin.NBitcoin.BouncyCastle.crypto
 {
     /// <remarks>Block cipher engines are expected to conform to this interface.</remarks>
     internal interface IBufferedCipher

@@ -3,10 +3,10 @@ using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.Text;
-using Marscore.NBitcoin.BouncyCastle.security;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math
+namespace Martiscoin.NBitcoin.BouncyCastle.math
 {
     public class BigInteger
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// A generic result type that can be serialized.

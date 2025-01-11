@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.IO;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal abstract class Asn1Sequence
         : Asn1Object, IEnumerable

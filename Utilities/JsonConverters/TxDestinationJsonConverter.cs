@@ -1,9 +1,9 @@
 ﻿using System;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="KeyId"/>, a <see cref="ScriptId"/>, a <see cref="WitKeyId"/> or a <see cref="WitScriptId"/> to and from JSON.

@@ -3,12 +3,12 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Marscore.Configuration;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.Configuration;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// This manager keeps a set of peers discovered on the network in cache and on disk.

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public class FileStorageOption
     {

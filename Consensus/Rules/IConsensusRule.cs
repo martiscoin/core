@@ -1,4 +1,4 @@
-﻿namespace Marscore.Consensus.Rules
+﻿namespace Martiscoin.Consensus.Rules
 {
     public interface IConsensusRuleBase
     {

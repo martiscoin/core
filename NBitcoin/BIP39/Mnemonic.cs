@@ -2,14 +2,14 @@
 using System.Collections;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin.BIP32;
-using Marscore.NBitcoin.BouncyCastle.crypto.digests;
-using Marscore.NBitcoin.BouncyCastle.crypto.macs;
-using Marscore.NBitcoin.BouncyCastle.crypto.parameters;
-using Marscore.NBitcoin.Crypto;
-using Marscore.NBitcoin.Crypto.Cryptsharp;
+using Martiscoin.NBitcoin.BIP32;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.digests;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.macs;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.parameters;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.Crypto.Cryptsharp;
 
-namespace Marscore.NBitcoin.BIP39
+namespace Martiscoin.NBitcoin.BIP39
 {
     /// <summary>
     /// A .NET implementation of the Bitcoin Improvement Proposal - 39 (BIP39)

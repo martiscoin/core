@@ -1,6 +1,6 @@
-﻿using Marscore.Consensus.BlockInfo;
+﻿using Martiscoin.Consensus.BlockInfo;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     /// <summary>
     /// A block received after being asked with a getdata message.

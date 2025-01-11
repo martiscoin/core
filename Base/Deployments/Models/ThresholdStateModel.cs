@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Marscore.Base.Deployments.Models
+namespace Martiscoin.Base.Deployments.Models
 {
     /// <summary>
     /// Class representing information about the current activation state of a deployment.

@@ -1,13 +1,13 @@
-﻿using Marscore.Configuration.Settings;
-using Marscore.Consensus;
-using Marscore.Consensus.Checkpoints;
-using Marscore.Interfaces;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
+﻿using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.Checkpoints;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Base
+namespace Martiscoin.Base
 {
     /// <summary>
     /// Provides IBD (Initial Block Download) state.

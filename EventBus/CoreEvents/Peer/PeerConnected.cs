@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Marscore.EventBus.CoreEvents.Peer
+namespace Martiscoin.EventBus.CoreEvents.Peer
 {
     /// <summary>
     /// Event that is published whenever a peer connects to the node.

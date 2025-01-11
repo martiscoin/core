@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>
     /// A factory to create protocol types.

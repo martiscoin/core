@@ -1,8 +1,8 @@
 ﻿using System;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.DataEncoders;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="byte[]"/> to and from hex-encoded JSON.

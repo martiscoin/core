@@ -1,11 +1,11 @@
 ﻿using System;
-using Marscore.Consensus.Chain;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.Crypto;
-using Marscore.Networks;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.Crypto;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.BlockInfo
+namespace Martiscoin.Consensus.BlockInfo
 {
     /// <summary>
     /// Nodes collect new transactions into a block, hash them into a hash tree,

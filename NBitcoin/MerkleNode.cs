@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Marscore.NBitcoin.Crypto;
+using Martiscoin.NBitcoin.Crypto;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class MerkleNode
     {

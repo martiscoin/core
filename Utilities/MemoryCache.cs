@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Memory cache that implements the Least Recently Used (LRU) policy.

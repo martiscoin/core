@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     /// <summary>
     /// Compact representation of one's chain position which can be used to find forks with another chain.

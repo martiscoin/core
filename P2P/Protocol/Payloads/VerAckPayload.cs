@@ -1,6 +1,6 @@
-﻿using Marscore.NBitcoin;
+﻿using Martiscoin.NBitcoin;
 
-namespace Marscore.P2P.Protocol.Payloads
+namespace Martiscoin.P2P.Protocol.Payloads
 {
     [Payload("verack")]
     public class VerAckPayload : Payload, IBitcoinSerializable

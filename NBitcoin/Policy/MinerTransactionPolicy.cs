@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin.Policy
+namespace Martiscoin.NBitcoin.Policy
 {
     /// <summary>
     /// Error when not enough funds are present for verifying or building a transaction

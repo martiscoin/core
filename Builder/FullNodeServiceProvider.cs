@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.Builder.Feature;
-using Marscore.Utilities;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// Provider of access to services and features registered with the full node.

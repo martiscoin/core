@@ -1,8 +1,8 @@
-﻿using Marscore.Consensus;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Networks;
+﻿using Martiscoin.Consensus;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// A reader for extracting an address from a Script

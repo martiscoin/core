@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.math.ec.multiplier
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec.multiplier
 {
     /**
      * Class holding precomputation data for the WTNAF (Window

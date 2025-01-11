@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.Utilities;
-using Marscore.Utilities.Store;
+using Martiscoin.AsyncWork;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Store;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     /// <summary>Provider of the last finalized block's height and hash.</summary>
     /// <remarks>

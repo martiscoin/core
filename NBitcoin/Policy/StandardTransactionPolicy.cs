@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.Networks;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.Networks;
 
-namespace Marscore.NBitcoin.Policy
+namespace Martiscoin.NBitcoin.Policy
 {
     public class StandardTransactionPolicy : ITransactionPolicy
     {
@@ -56,7 +56,7 @@ namespace Marscore.NBitcoin.Policy
         public StandardTransactionPolicy(Network network)
         {
             this.network = network;
-            this.ScriptVerify = Marscore.Consensus.ScriptInfo.ScriptVerify.Standard;
+            this.ScriptVerify = Martiscoin.Consensus.ScriptInfo.ScriptVerify.Standard;
             this.MaxTransactionSize = 100000;
             this.MaxTxFee = new FeeRate(Money.Satoshis(network.MaxTxFee));
             this.MinRelayTxFee = new FeeRate(Money.Satoshis(network.MinRelayTxFee));

@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.BouncyCastle.math.field
+﻿namespace Martiscoin.NBitcoin.BouncyCastle.math.field
 {
     internal class PrimeField
         : IFiniteField

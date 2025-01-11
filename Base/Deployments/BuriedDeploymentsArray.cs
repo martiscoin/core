@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     public class BuriedDeploymentsArray
     {

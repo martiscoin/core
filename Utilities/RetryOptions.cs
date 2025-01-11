@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     public enum RetryStrategyType
     {

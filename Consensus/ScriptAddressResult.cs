@@ -1,4 +1,4 @@
-﻿namespace Marscore.Consensus
+﻿namespace Martiscoin.Consensus
 {
     /// <summary>
     /// The script result address.

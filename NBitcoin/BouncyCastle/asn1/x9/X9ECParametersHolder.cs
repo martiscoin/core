@@ -1,4 +1,4 @@
-namespace Marscore.NBitcoin.BouncyCastle.asn1.x9
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.x9
 {
     internal abstract class X9ECParametersHolder
     {

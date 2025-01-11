@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Marscore.Utilities
+namespace Martiscoin.Utilities
 {
     /// <summary>
     /// Asynchronous event handler that can be registered with <see cref="AsyncExecutionEvent{TSender, TArg}"/>.

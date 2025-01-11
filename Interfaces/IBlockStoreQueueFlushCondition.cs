@@ -1,4 +1,4 @@
-﻿namespace Marscore.Interfaces
+﻿namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Determines whether or not <see cref="BlockStoreQueue"/> should flush it's batch to disk.

@@ -1,7 +1,7 @@
 using System.IO;
-using Marscore.NBitcoin.BouncyCastle.util.io;
+using Martiscoin.NBitcoin.BouncyCastle.util.io;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1
 {
     internal abstract class LimitedInputStream
         : BaseInputStream

@@ -1,8 +1,8 @@
-﻿using Marscore.Consensus.Chain;
-using Marscore.NBitcoin;
+﻿using Martiscoin.Consensus.Chain;
+using Martiscoin.NBitcoin;
 using Newtonsoft.Json;
 
-namespace Marscore.EventBus.CoreEvents
+namespace Martiscoin.EventBus.CoreEvents
 {
     /// <summary>
     /// Event that is executed when a block is connected to a consensus chain.

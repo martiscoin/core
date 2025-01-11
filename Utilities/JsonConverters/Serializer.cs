@@ -1,8 +1,8 @@
-﻿using Marscore.Networks;
+﻿using Martiscoin.Networks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Class providing method used to serialize/deserialize domain objects to and from JSON.

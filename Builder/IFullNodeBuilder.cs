@@ -1,11 +1,11 @@
 ﻿using System;
-using Marscore.Builder.Feature;
-using Marscore.Configuration;
-using Marscore.Networks;
-using Marscore.Persistence;
+using Martiscoin.Builder.Feature;
+using Martiscoin.Configuration;
+using Martiscoin.Networks;
+using Martiscoin.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Marscore.Builder
+namespace Martiscoin.Builder
 {
     /// <summary>
     /// Full node builder allows constructing a full node using specific components.

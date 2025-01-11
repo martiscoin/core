@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using Marscore.NBitcoin.BouncyCastle.util;
+using Martiscoin.NBitcoin.BouncyCastle.util;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.ec
+namespace Martiscoin.NBitcoin.BouncyCastle.math.ec
 {
     internal class LongArray
     {

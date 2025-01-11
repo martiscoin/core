@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 
-namespace Marscore.NBitcoin.BIP32
+namespace Martiscoin.NBitcoin.BIP32
 {
 
     /// <summary>

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin.BitcoinCore
+namespace Martiscoin.NBitcoin.BitcoinCore
 {
     public class Coins : IBitcoinSerializable
     {

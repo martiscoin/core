@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace Marscore.Builder.Feature
+namespace Martiscoin.Builder.Feature
 {
     /// <summary>
     /// Defines methods for collection of features of the FullNode.

@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Marscore.Builder;
-using Marscore.Consensus;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Consensus.Checkpoints;
-using Marscore.Consensus.ScriptInfo;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.BIP32;
-using Marscore.NBitcoin.BIP38;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
-using Marscore.P2P;
+using Martiscoin.Builder;
+using Martiscoin.Consensus;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Consensus.Checkpoints;
+using Martiscoin.Consensus.ScriptInfo;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.BIP32;
+using Martiscoin.NBitcoin.BIP38;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.P2P;
 
-namespace Marscore.Networks
+namespace Martiscoin.Networks
 {
     public enum Base58Type
     {

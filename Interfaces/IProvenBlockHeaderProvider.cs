@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Utilities;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Utilities;
 
-namespace Marscore.Interfaces
+namespace Martiscoin.Interfaces
 {
     /// <summary>
     /// Interface <see cref="ProvenBlockHeader"/> provider.

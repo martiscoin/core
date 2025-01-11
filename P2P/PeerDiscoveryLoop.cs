@@ -4,17 +4,17 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.AsyncWork;
-using Marscore.Configuration;
-using Marscore.Connection;
-using Marscore.NBitcoin;
-using Marscore.Networks;
-using Marscore.P2P.Peer;
-using Marscore.Utilities;
-using Marscore.Utilities.Extensions;
+using Martiscoin.AsyncWork;
+using Martiscoin.Configuration;
+using Martiscoin.Connection;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
+using Martiscoin.P2P.Peer;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Extensions;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// Contract for <see cref="PeerDiscovery"/>.

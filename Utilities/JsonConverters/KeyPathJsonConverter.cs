@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Marscore.NBitcoin.BIP32;
+using Martiscoin.NBitcoin.BIP32;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="KeyPath"/> to and from JSON.

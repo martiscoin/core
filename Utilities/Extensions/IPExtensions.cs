@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Marscore.NBitcoin;
-using Marscore.P2P;
+using Martiscoin.NBitcoin;
+using Martiscoin.P2P;
 
-namespace Marscore.Utilities.Extensions
+namespace Martiscoin.Utilities.Extensions
 {
     public static class IPExtensions
     {

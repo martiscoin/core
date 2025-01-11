@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Marscore.NBitcoin.DataEncoders
+namespace Martiscoin.NBitcoin.DataEncoders
 {
     public class Bech32FormatException : FormatException
     {

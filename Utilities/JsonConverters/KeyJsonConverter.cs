@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert a <see cref="Key"/> or a <see cref="PubKey"/> to and from JSON.

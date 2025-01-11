@@ -1,7 +1,7 @@
 ﻿using System;
-using Marscore.NBitcoin;
+using Martiscoin.NBitcoin;
 
-namespace Marscore.Base.Deployments
+namespace Martiscoin.Base.Deployments
 {
     public class BIP9DeploymentsParameters
     {

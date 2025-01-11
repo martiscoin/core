@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Marscore.Consensus.TransactionInfo;
-using Marscore.NBitcoin;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Formatters;
-using Marscore.Networks;
+using Martiscoin.Consensus.TransactionInfo;
+using Martiscoin.NBitcoin;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Formatters;
+using Martiscoin.Networks;
 using Newtonsoft.Json.Linq;
 
-namespace Marscore.Consensus.BlockInfo
+namespace Martiscoin.Consensus.BlockInfo
 {
     public partial class Block : IBitcoinSerializable
     {

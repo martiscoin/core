@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Marscore.Configuration;
-using Marscore.Configuration.Settings;
-using Marscore.Consensus;
-using Marscore.Networks;
-using Marscore.P2P;
-using Marscore.P2P.Peer;
-using Marscore.P2P.Protocol.Payloads;
+using Martiscoin.Configuration;
+using Martiscoin.Configuration.Settings;
+using Martiscoin.Consensus;
+using Martiscoin.Networks;
+using Martiscoin.P2P;
+using Martiscoin.P2P.Peer;
+using Martiscoin.P2P.Protocol.Payloads;
 
-namespace Marscore.Connection
+namespace Martiscoin.Connection
 {
     public interface IConnectionManager : IDisposable
     {

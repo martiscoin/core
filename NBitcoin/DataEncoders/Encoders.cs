@@ -1,4 +1,4 @@
-﻿namespace Marscore.NBitcoin.DataEncoders
+﻿namespace Martiscoin.NBitcoin.DataEncoders
 {
     public abstract class DataEncoder
     {

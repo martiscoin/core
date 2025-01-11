@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Marscore.NBitcoin.BIP39
+namespace Martiscoin.NBitcoin.BIP39
 {
     internal class KDTable
     {

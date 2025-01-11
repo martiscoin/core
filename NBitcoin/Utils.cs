@@ -8,15 +8,15 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Consensus.BlockInfo;
-using Marscore.Interfaces;
-using Marscore.NBitcoin.BouncyCastle.math;
-using Marscore.NBitcoin.DataEncoders;
-using Marscore.NBitcoin.Protocol;
-using Marscore.Networks;
-using Marscore.P2P;
+using Martiscoin.Consensus.BlockInfo;
+using Martiscoin.Interfaces;
+using Martiscoin.NBitcoin.BouncyCastle.math;
+using Martiscoin.NBitcoin.DataEncoders;
+using Martiscoin.NBitcoin.Protocol;
+using Martiscoin.Networks;
+using Martiscoin.P2P;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public static class Extensions
     {

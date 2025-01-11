@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
-using Marscore.NBitcoin.BouncyCastle.crypto.util;
-using Marscore.NBitcoin.BouncyCastle.security;
+using Martiscoin.NBitcoin.BouncyCastle.crypto.util;
+using Martiscoin.NBitcoin.BouncyCastle.security;
 
-namespace Marscore.NBitcoin.BouncyCastle.math.raw
+namespace Martiscoin.NBitcoin.BouncyCastle.math.raw
 {
     internal abstract class Mod
     {

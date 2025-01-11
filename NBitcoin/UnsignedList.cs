@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.Consensus.TransactionInfo;
+using Martiscoin.Consensus.TransactionInfo;
 
-namespace Marscore.NBitcoin
+namespace Martiscoin.NBitcoin
 {
     public class UnsignedList<T> : List<T>
         where T : IBitcoinSerializable, new()

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.NBitcoin;
-using Marscore.Networks;
+using Martiscoin.NBitcoin;
+using Martiscoin.Networks;
 
-namespace Marscore.Consensus.Chain
+namespace Martiscoin.Consensus.Chain
 {
     /// <summary>
     /// An indexer that provides methods to query the best chain (the chain that is validated by the full consensus rules)
@@ -182,7 +182,7 @@ namespace Marscore.Consensus.Chain
         }
 
         /// <summary>
-        /// TODO: Make this internal when the component moves to Marscore
+        /// TODO: Make this internal when the component moves to Martiscoin
         /// </summary>
         public void Add(ChainedHeader addTip)
         {
@@ -199,7 +199,7 @@ namespace Marscore.Consensus.Chain
         }
 
         /// <summary>
-        /// TODO: Make this internal when the component moves to Marscore
+        /// TODO: Make this internal when the component moves to Martiscoin
         /// </summary>
         public void Remove(ChainedHeader removeTip)
         {

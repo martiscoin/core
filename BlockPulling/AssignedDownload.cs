@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.Consensus.Chain;
+using Martiscoin.Consensus.Chain;
 
-namespace Marscore.BlockPulling
+namespace Martiscoin.BlockPulling
 {
     /// <summary>Represents a single download assignment to a peer.</summary>
     public class AssignedDownload

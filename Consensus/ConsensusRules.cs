@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Marscore.Consensus.Rules;
+using Martiscoin.Consensus.Rules;
 
-namespace Marscore.Consensus
+namespace Martiscoin.Consensus
 {
     public class ConsensusRules
     {

@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Marscore.P2P
+namespace Martiscoin.P2P
 {
     /// <summary>
     /// Represent a DNS seed.

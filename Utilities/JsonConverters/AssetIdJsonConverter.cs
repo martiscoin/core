@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Reflection;
-using Marscore.NBitcoin.OpenAsset;
-using Marscore.Networks;
+using Martiscoin.NBitcoin.OpenAsset;
+using Martiscoin.Networks;
 using Newtonsoft.Json;
 
-namespace Marscore.Utilities.JsonConverters
+namespace Martiscoin.Utilities.JsonConverters
 {
     /// <summary>
     /// Converter used to convert an <see cref="AssetId"/> to and from JSON.

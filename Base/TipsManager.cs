@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Marscore.Consensus.Chain;
-using Marscore.Utilities;
-using Marscore.Utilities.Store;
+using Martiscoin.Consensus.Chain;
+using Martiscoin.Utilities;
+using Martiscoin.Utilities.Store;
 using Microsoft.Extensions.Logging;
 
-namespace Marscore.Base
+namespace Martiscoin.Base
 {
     /// <summary>Interface that every tip provider that uses <see cref="ITipsManager"/> should implement.</summary>
     public interface ITipProvider

@@ -1,6 +1,6 @@
-using Marscore.NBitcoin.BouncyCastle.asn1.x9;
+using Martiscoin.NBitcoin.BouncyCastle.asn1.x9;
 
-namespace Marscore.NBitcoin.BouncyCastle.asn1.sec
+namespace Martiscoin.NBitcoin.BouncyCastle.asn1.sec
 {
     internal abstract class SecObjectIdentifiers
     {
