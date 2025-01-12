@@ -78,7 +78,7 @@ namespace Martiscoin.Connection
                 if (peer.State == NetworkPeerState.HandShaked)
                 {
                     this.connectionManager.AddConnectedPeer(peer);
-                    this.infoLogger.LogInformation("Peer '{0}' connected ({1}), agent '{2}', height {3}", peer.RemoteSocketEndpoint, peer.Inbound ? "inbound" : "outbound", peer.PeerVersion.UserAgent, peer.PeerVersion.StartHeight);
+                    //this.infoLogger.LogInformation("Peer '{0}' connected ({1}), agent '{2}', height {3}", peer.RemoteSocketEndpoint, peer.Inbound ? "inbound" : "outbound", peer.PeerVersion.UserAgent, peer.PeerVersion.StartHeight);
 
                     peer.SendMessage(new SendHeadersPayload());
                 }

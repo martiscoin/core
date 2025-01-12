@@ -316,39 +316,39 @@ namespace Martiscoin.Connection
 
             int inbound = this.ConnectedPeers.Count(x => x.Inbound);
 
-            builder.AppendLine();
-            builder.AppendLine($"======Connection====== agent {this.Parameters.UserAgent} [in:{inbound} out:{this.ConnectedPeers.Count() - inbound}] [recv: {totalRead.BytesToMegaBytes()} MB sent: {totalWritten.BytesToMegaBytes()} MB]");
+            //builder.AppendLine();
+            //builder.AppendLine($"======Connection====== agent {this.Parameters.UserAgent} [in:{inbound} out:{this.ConnectedPeers.Count() - inbound}] [recv: {totalRead.BytesToMegaBytes()} MB sent: {totalWritten.BytesToMegaBytes()} MB]");
 
-            if (whiteListedBuilder.Length > 0)
-            {
-                builder.AppendLine(">>> Whitelisted:");
-                builder.Append(whiteListedBuilder.ToString());
-                builder.AppendLine("<<<");
-            }
+            //if (whiteListedBuilder.Length > 0)
+            //{
+            //    builder.AppendLine(">>> Whitelisted:");
+            //    builder.Append(whiteListedBuilder.ToString());
+            //    builder.AppendLine("<<<");
+            //}
 
-            if (addNodeBuilder.Length > 0)
-            {
-                builder.AppendLine(">>> AddNode:");
-                builder.Append(addNodeBuilder.ToString());
-                builder.AppendLine("<<<");
-            }
+            //if (addNodeBuilder.Length > 0)
+            //{
+            //    builder.AppendLine(">>> AddNode:");
+            //    builder.Append(addNodeBuilder.ToString());
+            //    builder.AppendLine("<<<");
+            //}
 
-            if (oneTryBuilder.Length > 0)
-            {
-                builder.AppendLine(">>> OneTry:");
-                builder.Append(oneTryBuilder.ToString());
-                builder.AppendLine("<<<");
-            }
+            //if (oneTryBuilder.Length > 0)
+            //{
+            //    builder.AppendLine(">>> OneTry:");
+            //    builder.Append(oneTryBuilder.ToString());
+            //    builder.AppendLine("<<<");
+            //}
 
-            if (connectBuilder.Length > 0)
-            {
-                builder.AppendLine(">>> Connect:");
-                builder.Append(connectBuilder.ToString());
-                builder.AppendLine("<<<");
-            }
+            //if (connectBuilder.Length > 0)
+            //{
+            //    builder.AppendLine(">>> Connect:");
+            //    builder.Append(connectBuilder.ToString());
+            //    builder.AppendLine("<<<");
+            //}
 
-            if (otherBuilder.Length > 0)
-                builder.Append(otherBuilder.ToString());
+            //if (otherBuilder.Length > 0)
+            //    builder.Append(otherBuilder.ToString());
         }
 
         private string ToKBSec(ulong bytesPerSec)
