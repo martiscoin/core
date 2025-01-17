@@ -172,6 +172,54 @@ namespace Martiscoin.Connection.Broadcasting
             }
         }
 
+        /// <summary>
+        /// Send storagePayload to peers
+        /// </summary>
+        /// <param name="storagePayload">Lot miner</param>
+        /// <returns></returns>
+        public async Task PropagateNodeSyncToPeersAsync(string nodeid)
+        {
+            List<INetworkPeer> peers = this.connectionManager.ConnectedPeers.ToList();
+
+            foreach (INetworkPeer peer in peers)
+            {
+                try
+                {
+                    if (peer.IsConnected)
+                    {
+                        await peer.SendMessageAsync(new NodeSyncPayload(nodeid, "", "")).ConfigureAwait(false);
+                    }
+                }
+                catch (OperationCanceledException)
+                {
+                }
+            }
+        }
+
+        /// <summary>
+        /// Send nodesyncpayload to peers
+        /// </summary>
+        /// <param name="nodesyncpayload">node info</param>
+        /// <returns></returns>
+        public async Task PropagateNodeSyncToPeersAsync(NodeSyncPayload nodesyncpayload)
+        {
+            List<INetworkPeer> peers = this.connectionManager.ConnectedPeers.ToList();
+
+            foreach (INetworkPeer peer in peers)
+            {
+                try
+                {
+                    if (peer.IsConnected)
+                    {
+                        await peer.SendMessageAsync(nodesyncpayload).ConfigureAwait(false);
+                    }
+                }
+                catch (OperationCanceledException)
+                {
+                }
+            }
+        }
+
         /// <summary>Checks if transaction was propagated to any peers on the network.</summary>
         protected bool IsPropagated(Transaction transaction)
         {

@@ -73,6 +73,11 @@ namespace Martiscoin.Networks
         protected Block Genesis;
 
         /// <summary>
+        /// 
+        /// </summary>
+        public string NodeUUID { get; set; }
+
+        /// <summary>
         /// The default amount of seconds to keep misbehaving peers from reconnecting.
         /// <para>
         /// This value should be calculated as (TargetSpacingSeconds * maxReorgLength) / 2.

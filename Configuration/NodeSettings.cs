@@ -212,6 +212,18 @@ namespace Martiscoin.Configuration
             // Set the data folder.
             this.DataFolder = new DataFolder(this.DataDir);
 
+            //check nodeid
+            string nodePath = this.DataFolder.RootPath + "\\nodeid";
+            if (System.IO.File.Exists(nodePath))
+            {
+                this.Network.NodeUUID = System.IO.File.ReadAllText(nodePath).Trim();
+            }
+            if (string.IsNullOrEmpty(this.Network.NodeUUID))
+            {
+                this.Network.NodeUUID = Guid.NewGuid().ToString().Replace("-", "");
+                System.IO.File.WriteAllText(nodePath, this.Network.NodeUUID);
+            }
+
             // Attempt to load NLog configuration from the DataFolder.
             this.Log = new LogSettings();
             this.Log.Load(this.ConfigReader);
