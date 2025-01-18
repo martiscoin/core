@@ -13,18 +13,15 @@ namespace Martiscoin.P2P.Protocol.Payloads
     public class NodeSyncPayload : Payload
     {
         string nodeid;
-        string ip;
-        string ipv6;
+        string[] ips;
 
         public string NodeID { get { return this.nodeid; } set { this.nodeid = value; } }
-        public string IP { get { return this.ip; } set { this.ip = value; } }
-        public string IPV6 { get { return this.ipv6; } set { this.ipv6 = value; } }
+        public string[] IPs { get { return this.ips; } set { this.ips = value; } }
 
-        public NodeSyncPayload(string nodeid, string ip,string ipv6)
+        public NodeSyncPayload(string nodeid, string[] ips)
         {
             this.nodeid = nodeid;
-            this.ip = ip;
-            this.ipv6 = ipv6;
+            this.ips = ips;
         }
 
         public NodeSyncPayload()
@@ -34,13 +31,12 @@ namespace Martiscoin.P2P.Protocol.Payloads
         public override void ReadWriteCore(BitcoinStream stream)
         {
             stream.ReadWrite(ref this.nodeid);
-            stream.ReadWrite(ref this.ip);
-            stream.ReadWrite(ref this.ipv6);
+            stream.ReadWrite(ref this.ips);
         }
 
         public override string ToString()
         {
-            return base.ToString() + " : " + this.nodeid + "," + this.ip + "," + this.ipv6;
+            return base.ToString() + " : " + this.nodeid + "," + this.ips;
         }
 
     }
@@ -48,20 +44,17 @@ namespace Martiscoin.P2P.Protocol.Payloads
     public class NodeInfo
     {
         string nodeid;
-        string ip;
-        string ipv6;
+        string[] ips;
         DateTime lstupdatetime;
 
         public string NodeID { get { return this.nodeid; } set { this.nodeid = value; } }
-        public string IP { get { return this.ip; } set { this.ip = value; } }
-        public string IPV6 { get { return this.ipv6; } set { this.ipv6 = value; } }
+        public string[] IP { get { return this.ips; } set { this.ips = value; } }
         public DateTime LstUpdateTime { get { return this.lstupdatetime; } set { this.lstupdatetime = value; } }
 
-        public NodeInfo(string nodeid, string ip, string ipv6)
+        public NodeInfo(string nodeid, string[] ips)
         {
             this.nodeid = nodeid;
-            this.ip = ip;
-            this.ipv6 = ipv6;
+            this.ips = ips;
             this.lstupdatetime = DateTime.UtcNow;
         }
     }

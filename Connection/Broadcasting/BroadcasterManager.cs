@@ -180,30 +180,15 @@ namespace Martiscoin.Connection.Broadcasting
         public async Task PropagateNodeSyncToPeersAsync(string nodeid)
         {
             List<INetworkPeer> peers = this.connectionManager.ConnectedPeers.ToList();
-
-            foreach (INetworkPeer peer in peers)
+            var outbounds = peers.FindAll(p => p.Inbound == false);
+            var outIPs = new List<string>();
+            foreach (var outpeer in outbounds)
             {
-                try
-                {
-                    if (peer.IsConnected)
-                    {
-                        await peer.SendMessageAsync(new NodeSyncPayload(nodeid, "", "")).ConfigureAwait(false);
-                    }
-                }
-                catch (OperationCanceledException)
-                {
-                }
+                var outIP = outpeer.PeerEndPoint.ToString();
+                outIPs.Add(outIP);
             }
-        }
 
-        /// <summary>
-        /// Send nodesyncpayload to peers
-        /// </summary>
-        /// <param name="nodesyncpayload">node info</param>
-        /// <returns></returns>
-        public async Task PropagateNodeSyncToPeersAsync(NodeSyncPayload nodesyncpayload)
-        {
-            List<INetworkPeer> peers = this.connectionManager.ConnectedPeers.ToList();
+            if (outIPs.Count <= 0) return;
 
             foreach (INetworkPeer peer in peers)
             {
@@ -211,7 +196,7 @@ namespace Martiscoin.Connection.Broadcasting
                 {
                     if (peer.IsConnected)
                     {
-                        await peer.SendMessageAsync(nodesyncpayload).ConfigureAwait(false);
+                        await peer.SendMessageAsync(new NodeSyncPayload(nodeid, outIPs.ToArray())).ConfigureAwait(false);
                     }
                 }
                 catch (OperationCanceledException)
