@@ -77,6 +77,11 @@ namespace Martiscoin.Networks
         /// </summary>
         public string NodeUUID { get; set; }
 
+        public string LHashrate { get; set; }
+        public string NHashrate { get; set; }
+        public int OnlineNodes { get; set; }
+        public int TotalNodes { get; set; }
+
         /// <summary>
         /// The default amount of seconds to keep misbehaving peers from reconnecting.
         /// <para>
