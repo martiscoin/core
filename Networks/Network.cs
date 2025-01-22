@@ -82,6 +82,8 @@ namespace Martiscoin.Networks
         public int OnlineNodes { get; set; }
         public int TotalNodes { get; set; }
 
+        public bool ChainStop { get; set; }
+
         /// <summary>
         /// The default amount of seconds to keep misbehaving peers from reconnecting.
         /// <para>
