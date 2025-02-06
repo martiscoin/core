@@ -177,26 +177,18 @@ namespace Martiscoin.Connection.Broadcasting
         /// </summary>
         /// <param name="storagePayload">Lot miner</param>
         /// <returns></returns>
-        public async Task PropagateNodeSyncToPeersAsync(string nodeid)
+        public async Task PropagateNodeSyncToPeersAsync(string nodeid,List<NodeInfo> RegsiterNodes)
         {
             List<INetworkPeer> peers = this.connectionManager.ConnectedPeers.ToList();
-            var outbounds = peers.FindAll(p => p.Inbound == false);
-            var outIPs = new List<string>();
-            foreach (var outpeer in outbounds)
-            {
-                var outIP = outpeer.PeerEndPoint.ToString();
-                outIPs.Add(outIP);
-            }
-
-            if (outIPs.Count <= 0) return;
-
             foreach (INetworkPeer peer in peers)
             {
                 try
                 {
                     if (peer.IsConnected)
                     {
-                        await peer.SendMessageAsync(new NodeSyncPayload(nodeid, outIPs.ToArray())).ConfigureAwait(false);
+                        RegsiterNodes.RemoveAll(x => x.NodeID == nodeid);
+                        RegsiterNodes.Add(new NodeInfo(nodeid));
+                        await peer.SendMessageAsync(new NodeSyncPayload(Newtonsoft.Json.JsonConvert.SerializeObject(RegsiterNodes))).ConfigureAwait(false);
                     }
                 }
                 catch (OperationCanceledException)

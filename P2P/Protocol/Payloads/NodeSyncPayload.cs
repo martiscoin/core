@@ -12,16 +12,12 @@ namespace Martiscoin.P2P.Protocol.Payloads
     [Payload("nodesync")]
     public class NodeSyncPayload : Payload
     {
-        string nodeid;
-        string[] ips;
+        string _nodes;
+        public string nodes { get { return this._nodes; } set { this._nodes = value; } }
 
-        public string NodeID { get { return this.nodeid; } set { this.nodeid = value; } }
-        public string[] IPs { get { return this.ips; } set { this.ips = value; } }
-
-        public NodeSyncPayload(string nodeid, string[] ips)
+        public NodeSyncPayload(string nodes)
         {
-            this.nodeid = nodeid;
-            this.ips = ips;
+            this._nodes = nodes;
         }
 
         public NodeSyncPayload()
@@ -30,13 +26,12 @@ namespace Martiscoin.P2P.Protocol.Payloads
 
         public override void ReadWriteCore(BitcoinStream stream)
         {
-            stream.ReadWrite(ref this.nodeid);
-            stream.ReadWrite(ref this.ips);
+            stream.ReadWrite(ref this._nodes);
         }
 
         public override string ToString()
         {
-            return base.ToString() + " : " + this.nodeid + "," + this.ips;
+            return base.ToString() + " : " + this.nodes;
         }
 
     }
@@ -44,17 +39,14 @@ namespace Martiscoin.P2P.Protocol.Payloads
     public class NodeInfo
     {
         string nodeid;
-        string[] ips;
         DateTime lstupdatetime;
 
         public string NodeID { get { return this.nodeid; } set { this.nodeid = value; } }
-        public string[] IP { get { return this.ips; } set { this.ips = value; } }
         public DateTime LstUpdateTime { get { return this.lstupdatetime; } set { this.lstupdatetime = value; } }
 
-        public NodeInfo(string nodeid, string[] ips)
+        public NodeInfo(string nodeid)
         {
             this.nodeid = nodeid;
-            this.ips = ips;
             this.lstupdatetime = DateTime.UtcNow;
         }
     }
