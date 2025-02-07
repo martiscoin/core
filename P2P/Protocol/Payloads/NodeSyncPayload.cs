@@ -13,6 +13,10 @@ namespace Martiscoin.P2P.Protocol.Payloads
     public class NodeSyncPayload : Payload
     {
         string _nodes;
+
+        /// <summary>
+        /// current nodes inclued all NodeInfo
+        /// </summary>
         public string nodes { get { return this._nodes; } set { this._nodes = value; } }
 
         public NodeSyncPayload(string nodes)
@@ -38,8 +42,8 @@ namespace Martiscoin.P2P.Protocol.Payloads
 
     public class NodeInfo
     {
-        string nodeid;
-        DateTime lstupdatetime;
+        string nodeid;//current node id
+        DateTime lstupdatetime;//last update online time
 
         public string NodeID { get { return this.nodeid; } set { this.nodeid = value; } }
         public DateTime LstUpdateTime { get { return this.lstupdatetime; } set { this.lstupdatetime = value; } }
