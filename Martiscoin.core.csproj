@@ -8,6 +8,7 @@
     <PackageId>Martiscoin.Core</PackageId>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
+    <Version>$(VersionPrefix)3.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
