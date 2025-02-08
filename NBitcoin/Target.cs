@@ -158,10 +158,10 @@ namespace Martiscoin.NBitcoin
             return ToUInt256(this.target);
         }
 
-        public uint256 ToUInt256(int sign)
-        {
-            return ToUInt256(this.target.Divide(BigInteger.ValueOf(sign)));
-        }
+        //public uint256 ToUInt256(int sign)
+        //{
+        //    return ToUInt256(this.target.Divide(BigInteger.ValueOf(sign)));
+        //}
 
         internal static uint256 ToUInt256(BigInteger input)
         {
